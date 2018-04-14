@@ -1,0 +1,3138 @@
+[
+  {
+    "City_Name": "Yountville, CA",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$5.58",
+    "Typical_Medium_Fare": "$18.54",
+    "Typical_Long_Fare": "$34.16"
+  },
+  {
+    "City_Name": "Yorktown, VA",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.10",
+    "Typical_Short_Fare": "$4.96",
+    "Typical_Medium_Fare": "$14.30",
+    "Typical_Long_Fare": "$25.70"
+  },
+  {
+    "City_Name": "Wrightsville Beach, NC",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.10",
+    "Typical_Short_Fare": "$5.63",
+    "Typical_Medium_Fare": "$15.86",
+    "Typical_Long_Fare": "$28.11"
+  },
+  {
+    "City_Name": "Worcester, MA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$6.12",
+    "Typical_Medium_Fare": "$18.13",
+    "Typical_Long_Fare": "$32.54"
+  },
+  {
+    "City_Name": "Woodbury, MN",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$6.29",
+    "Typical_Medium_Fare": "$19.68",
+    "Typical_Long_Fare": "$35.71"
+  },
+  {
+    "City_Name": "Woodbridge, VA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.65",
+    "Typical_Medium_Fare": "$15.61",
+    "Typical_Long_Fare": "$27.49"
+  },
+  {
+    "City_Name": "Winston-Salem, NC",
+    "Initial_Charge": "$1.80",
+    "Per_Mile_Charge": "$2.10",
+    "Typical_Short_Fare": "$4.28",
+    "Typical_Medium_Fare": "$14.25",
+    "Typical_Long_Fare": "$26.25"
+  },
+  {
+    "City_Name": "Windsor, CT",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$6.64",
+    "Typical_Medium_Fare": "$19.43",
+    "Typical_Long_Fare": "$34.29"
+  },
+  {
+    "City_Name": "Winchester, VA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$4.46",
+    "Typical_Medium_Fare": "$13.30",
+    "Typical_Long_Fare": "$24.10"
+  },
+  {
+    "City_Name": "Wilmington, NC",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.10",
+    "Typical_Short_Fare": "$5.63",
+    "Typical_Medium_Fare": "$15.86",
+    "Typical_Long_Fare": "$28.11"
+  },
+  {
+    "City_Name": "Wilmington, DE",
+    "Initial_Charge": "$3.25",
+    "Per_Mile_Charge": "$3.50",
+    "Typical_Short_Fare": "$7.31",
+    "Typical_Medium_Fare": "$23.40",
+    "Typical_Long_Fare": "$42.90"
+  },
+  {
+    "City_Name": "Wichita, KS",
+    "Initial_Charge": "$2.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$4.66",
+    "Typical_Medium_Fare": "$14.75",
+    "Typical_Long_Fare": "$26.75"
+  },
+  {
+    "City_Name": "West Covina, CA",
+    "Initial_Charge": "$2.85",
+    "Per_Mile_Charge": "$2.70",
+    "Typical_Short_Fare": "$7.14",
+    "Typical_Medium_Fare": "$22.30",
+    "Typical_Long_Fare": "$39.97"
+  },
+  {
+    "City_Name": "Wellsboro, PA",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$1.75",
+    "Typical_Short_Fare": "$4.54",
+    "Typical_Medium_Fare": "$13.38",
+    "Typical_Long_Fare": "$23.88"
+  },
+  {
+    "City_Name": "Washington, DC",
+    "Initial_Charge": "$3.25",
+    "Per_Mile_Charge": "$2.16",
+    "Typical_Short_Fare": "$7.39",
+    "Typical_Medium_Fare": "$21.22",
+    "Typical_Long_Fare": "$36.98"
+  },
+  {
+    "City_Name": "Waltham, MA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$6.02",
+    "Typical_Medium_Fare": "$20.38",
+    "Typical_Long_Fare": "$37.63"
+  },
+  {
+    "City_Name": "Walnut Creek, CA",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$6.59",
+    "Typical_Medium_Fare": "$20.73",
+    "Typical_Long_Fare": "$37.48"
+  },
+  {
+    "City_Name": "Virginia Beach, VA",
+    "Initial_Charge": "$3.25",
+    "Per_Mile_Charge": "$2.40",
+    "Typical_Short_Fare": "$5.89",
+    "Typical_Medium_Fare": "$16.75",
+    "Typical_Long_Fare": "$29.95"
+  },
+  {
+    "City_Name": "Vienna, VA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.16",
+    "Typical_Short_Fare": "$6.85",
+    "Typical_Medium_Fare": "$19.07",
+    "Typical_Long_Fare": "$33.29"
+  },
+  {
+    "City_Name": "Vallejo, CA",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$5.58",
+    "Typical_Medium_Fare": "$18.54",
+    "Typical_Long_Fare": "$34.16"
+  },
+  {
+    "City_Name": "Union City, CA",
+    "Initial_Charge": "$3.20",
+    "Per_Mile_Charge": "$2.90",
+    "Typical_Short_Fare": "$7.45",
+    "Typical_Medium_Fare": "$22.85",
+    "Typical_Long_Fare": "$40.97"
+  },
+  {
+    "City_Name": "Tysons Corner, VA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.16",
+    "Typical_Short_Fare": "$6.85",
+    "Typical_Medium_Fare": "$19.07",
+    "Typical_Long_Fare": "$33.29"
+  },
+  {
+    "City_Name": "Tulsa, OK",
+    "Initial_Charge": "$1.50",
+    "Per_Mile_Charge": "$1.90",
+    "Typical_Short_Fare": "$3.70",
+    "Typical_Medium_Fare": "$12.55",
+    "Typical_Long_Fare": "$23.24"
+  },
+  {
+    "City_Name": "Tucson, AZ",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$1.95",
+    "Typical_Short_Fare": "$5.59",
+    "Typical_Medium_Fare": "$16.01",
+    "Typical_Long_Fare": "$28.26"
+  },
+  {
+    "City_Name": "Troy, NY",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.18",
+    "Typical_Medium_Fare": "$14.75",
+    "Typical_Long_Fare": "$26.25"
+  },
+  {
+    "City_Name": "Trenton, NJ",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$6.27",
+    "Typical_Medium_Fare": "$23.50",
+    "Typical_Long_Fare": "$43.50"
+  },
+  {
+    "City_Name": "Torrance, CA",
+    "Initial_Charge": "$2.85",
+    "Per_Mile_Charge": "$2.70",
+    "Typical_Short_Fare": "$7.14",
+    "Typical_Medium_Fare": "$22.30",
+    "Typical_Long_Fare": "$39.97"
+  },
+  {
+    "City_Name": "Topeka, KS",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.82",
+    "Typical_Medium_Fare": "$18.44",
+    "Typical_Long_Fare": "$33.44"
+  },
+  {
+    "City_Name": "Tomball, TX",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$7.56",
+    "Typical_Medium_Fare": "$19.50",
+    "Typical_Long_Fare": "$33.50"
+  },
+  {
+    "City_Name": "Toledo, OH",
+    "Initial_Charge": "$2.00",
+    "Per_Mile_Charge": "$2.30",
+    "Typical_Short_Fare": "$4.61",
+    "Typical_Medium_Fare": "$15.07",
+    "Typical_Long_Fare": "$27.77"
+  },
+  {
+    "City_Name": "The Woodlands, TX",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$7.56",
+    "Typical_Medium_Fare": "$19.50",
+    "Typical_Long_Fare": "$33.50"
+  },
+  {
+    "City_Name": "Tempe, AZ",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$7.01",
+    "Typical_Medium_Fare": "$20.57",
+    "Typical_Long_Fare": "$36.11"
+  },
+  {
+    "City_Name": "Tampa, FL",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.40",
+    "Typical_Short_Fare": "$5.76",
+    "Typical_Medium_Fare": "$18.03",
+    "Typical_Long_Fare": "$32.58"
+  },
+  {
+    "City_Name": "Tallahassee, FL",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$4.32",
+    "Typical_Medium_Fare": "$15.63",
+    "Typical_Long_Fare": "$29.38"
+  },
+  {
+    "City_Name": "Tacoma, WA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.68",
+    "Typical_Medium_Fare": "$17.25",
+    "Typical_Long_Fare": "$31.25"
+  },
+  {
+    "City_Name": "Syracuse, NY",
+    "Initial_Charge": "$2.80",
+    "Per_Mile_Charge": "$3.20",
+    "Typical_Short_Fare": "$6.76",
+    "Typical_Medium_Fare": "$21.30",
+    "Typical_Long_Fare": "$38.97"
+  },
+  {
+    "City_Name": "Suwanee, GA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$1.50",
+    "Typical_Short_Fare": "$4.13",
+    "Typical_Medium_Fare": "$10.13",
+    "Typical_Long_Fare": "$17.63"
+  },
+  {
+    "City_Name": "Surprise, AZ",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$7.01",
+    "Typical_Medium_Fare": "$20.57",
+    "Typical_Long_Fare": "$36.11"
+  },
+  {
+    "City_Name": "Sunol, CA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.88",
+    "Typical_Medium_Fare": "$18.50",
+    "Typical_Long_Fare": "$33.50"
+  },
+  {
+    "City_Name": "Sunnyvale, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$7.55",
+    "Typical_Medium_Fare": "$23.83",
+    "Typical_Long_Fare": "$42.91"
+  },
+  {
+    "City_Name": "Suisun, CA",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$5.07",
+    "Typical_Medium_Fare": "$16.03",
+    "Typical_Long_Fare": "$29.16"
+  },
+  {
+    "City_Name": "Sugar Land, TX",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$7.56",
+    "Typical_Medium_Fare": "$19.50",
+    "Typical_Long_Fare": "$33.50"
+  },
+  {
+    "City_Name": "Stockton, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$6.65",
+    "Typical_Medium_Fare": "$20.03",
+    "Typical_Long_Fare": "$35.76"
+  },
+  {
+    "City_Name": "Sterling, VA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$6.36",
+    "Typical_Medium_Fare": "$17.50",
+    "Typical_Long_Fare": "$30.50"
+  },
+  {
+    "City_Name": "State_College, PA",
+    "Initial_Charge": "$1.90",
+    "Per_Mile_Charge": "$1.75",
+    "Typical_Short_Fare": "$4.22",
+    "Typical_Medium_Fare": "$12.53",
+    "Typical_Long_Fare": "$22.53"
+  },
+  {
+    "City_Name": "Stanford, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$4.02",
+    "Typical_Medium_Fare": "$18.38",
+    "Typical_Long_Fare": "$35.63"
+  },
+  {
+    "City_Name": "Stamford, CT",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$6.64",
+    "Typical_Medium_Fare": "$19.43",
+    "Typical_Long_Fare": "$34.29"
+  },
+  {
+    "City_Name": "St. Petersburg, FL",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$5.77",
+    "Typical_Medium_Fare": "$18.44",
+    "Typical_Long_Fare": "$33.19"
+  },
+  {
+    "City_Name": "St. Paul, MN",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.41",
+    "Typical_Medium_Fare": "$17.09",
+    "Typical_Long_Fare": "$31.19"
+  },
+  {
+    "City_Name": "St. Michaels, MD",
+    "Initial_Charge": "$2.00",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.41",
+    "Typical_Medium_Fare": "$17.50",
+    "Typical_Long_Fare": "$32.00"
+  },
+  {
+    "City_Name": "St. Louis, MO",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.63",
+    "Typical_Medium_Fare": "$15.55",
+    "Typical_Long_Fare": "$27.38"
+  },
+  {
+    "City_Name": "St. Augustine, FL",
+    "Initial_Charge": "$1.50",
+    "Per_Mile_Charge": "$1.55",
+    "Typical_Short_Fare": "$3.62",
+    "Typical_Medium_Fare": "$11.65",
+    "Typical_Long_Fare": "$21.15"
+  },
+  {
+    "City_Name": "Springfield, OH",
+    "Initial_Charge": "$5.00",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$8.88",
+    "Typical_Medium_Fare": "$21.65",
+    "Typical_Long_Fare": "$36.50"
+  },
+  {
+    "City_Name": "Springfield, MO",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.66",
+    "Typical_Medium_Fare": "$16.80",
+    "Typical_Long_Fare": "$29.80"
+  },
+  {
+    "City_Name": "Spokane, WA",
+    "Initial_Charge": "$7.20",
+    "Per_Mile_Charge": "$2.80",
+    "Typical_Short_Fare": "$8.02",
+    "Typical_Medium_Fare": "$21.10",
+    "Typical_Long_Fare": "$36.90"
+  },
+  {
+    "City_Name": "Sonoma Valley, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$6.83",
+    "Typical_Medium_Fare": "$21.45",
+    "Typical_Long_Fare": "$38.95"
+  },
+  {
+    "City_Name": "Somerville, MA",
+    "Initial_Charge": "$5.04",
+    "Per_Mile_Charge": "$5.00",
+    "Typical_Short_Fare": "$7.31",
+    "Typical_Medium_Fare": "$32.54",
+    "Typical_Long_Fare": "$62.54"
+  },
+  {
+    "City_Name": "Simi Valley, CA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$7.25",
+    "Typical_Medium_Fare": "$22.16",
+    "Typical_Long_Fare": "$39.65"
+  },
+  {
+    "City_Name": "Silicon Valley, CA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$8.01",
+    "Typical_Medium_Fare": "$24.20",
+    "Typical_Long_Fare": "$43.20"
+  },
+  {
+    "City_Name": "Severna Park, MD",
+    "Initial_Charge": "$2.00",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.41",
+    "Typical_Medium_Fare": "$17.50",
+    "Typical_Long_Fare": "$32.00"
+  },
+  {
+    "City_Name": "Seattle, WA",
+    "Initial_Charge": "$2.60",
+    "Per_Mile_Charge": "$2.70",
+    "Typical_Short_Fare": "$7.11",
+    "Typical_Medium_Fare": "$22.10",
+    "Typical_Long_Fare": "$39.60"
+  },
+  {
+    "City_Name": "Seat Pleasant, MD",
+    "Initial_Charge": "$1.15",
+    "Per_Mile_Charge": "$1.08",
+    "Typical_Short_Fare": "$2.46",
+    "Typical_Medium_Fare": "$7.67",
+    "Typical_Long_Fare": "$13.92"
+  },
+  {
+    "City_Name": "Scranton, PA",
+    "Initial_Charge": "$2.95",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$6.47",
+    "Typical_Medium_Fare": "$21.40",
+    "Typical_Long_Fare": "$39.20"
+  },
+  {
+    "City_Name": "Scottsdale, AZ",
+    "Initial_Charge": "$2.90",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$7.10",
+    "Typical_Medium_Fare": "$21.99",
+    "Typical_Long_Fare": "$39.16"
+  },
+  {
+    "City_Name": "Scottsbluff, NE",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$6.77",
+    "Typical_Medium_Fare": "$20.00",
+    "Typical_Long_Fare": "$35.00"
+  },
+  {
+    "City_Name": "Schenectady, NY",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.18",
+    "Typical_Medium_Fare": "$14.75",
+    "Typical_Long_Fare": "$26.25"
+  },
+  {
+    "City_Name": "Savannah, GA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.28",
+    "Typical_Short_Fare": "$4.64",
+    "Typical_Medium_Fare": "$14.31",
+    "Typical_Long_Fare": "$26.23"
+  },
+  {
+    "City_Name": "Saratoga, CA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$8.01",
+    "Typical_Medium_Fare": "$24.20",
+    "Typical_Long_Fare": "$43.20"
+  },
+  {
+    "City_Name": "Santa Rosa, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$6.83",
+    "Typical_Medium_Fare": "$21.45",
+    "Typical_Long_Fare": "$38.95"
+  },
+  {
+    "City_Name": "Santa Clarita, CA",
+    "Initial_Charge": "$2.85",
+    "Per_Mile_Charge": "$2.70",
+    "Typical_Short_Fare": "$7.14",
+    "Typical_Medium_Fare": "$22.30",
+    "Typical_Long_Fare": "$39.97"
+  },
+  {
+    "City_Name": "Santa Clara, CA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$8.01",
+    "Typical_Medium_Fare": "$24.20",
+    "Typical_Long_Fare": "$43.20"
+  },
+  {
+    "City_Name": "Santa Barbara, CA",
+    "Initial_Charge": "$2.10",
+    "Per_Mile_Charge": "$3.70",
+    "Typical_Short_Fare": "$7.19",
+    "Typical_Medium_Fare": "$26.26",
+    "Typical_Long_Fare": "$48.85"
+  },
+  {
+    "City_Name": "Santa Ana, CA",
+    "Initial_Charge": "$2.95",
+    "Per_Mile_Charge": "$2.60",
+    "Typical_Short_Fare": "$6.59",
+    "Typical_Medium_Fare": "$20.13",
+    "Typical_Long_Fare": "$36.13"
+  },
+  {
+    "City_Name": "San Ramon, CA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.88",
+    "Typical_Medium_Fare": "$18.50",
+    "Typical_Long_Fare": "$33.50"
+  },
+  {
+    "City_Name": "San Mateo, CA",
+    "Initial_Charge": "$3.10",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$7.61",
+    "Typical_Medium_Fare": "$23.80",
+    "Typical_Long_Fare": "$42.80"
+  },
+  {
+    "City_Name": "San Marcos, TX",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$7.01",
+    "Typical_Medium_Fare": "$19.63",
+    "Typical_Long_Fare": "$34.63"
+  },
+  {
+    "City_Name": "San Lorenzo, CA",
+    "Initial_Charge": "$3.20",
+    "Per_Mile_Charge": "$2.90",
+    "Typical_Short_Fare": "$7.45",
+    "Typical_Medium_Fare": "$22.85",
+    "Typical_Long_Fare": "$40.97"
+  },
+  {
+    "City_Name": "San Leandro, CA",
+    "Initial_Charge": "$3.20",
+    "Per_Mile_Charge": "$2.90",
+    "Typical_Short_Fare": "$7.45",
+    "Typical_Medium_Fare": "$22.85",
+    "Typical_Long_Fare": "$40.97"
+  },
+  {
+    "City_Name": "San Juan, Puerto Rico",
+    "Initial_Charge": "$1.75",
+    "Per_Mile_Charge": "$1.90",
+    "Typical_Short_Fare": "$4.91",
+    "Typical_Medium_Fare": "$15.65",
+    "Typical_Long_Fare": "$28.15"
+  },
+  {
+    "City_Name": "San Jose, CA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$8.01",
+    "Typical_Medium_Fare": "$24.20",
+    "Typical_Long_Fare": "$43.20"
+  },
+  {
+    "City_Name": "San Francisco, CA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$7.78",
+    "Typical_Medium_Fare": "$23.57",
+    "Typical_Long_Fare": "$41.91"
+  },
+  {
+    "City_Name": "San Diego, CA",
+    "Initial_Charge": "$2.80",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$6.41",
+    "Typical_Medium_Fare": "$20.50",
+    "Typical_Long_Fare": "$37.50"
+  },
+  {
+    "City_Name": "San Bernardino, CA",
+    "Initial_Charge": "$2.60",
+    "Per_Mile_Charge": "$2.60",
+    "Typical_Short_Fare": "$5.65",
+    "Typical_Medium_Fare": "$17.70",
+    "Typical_Long_Fare": "$32.28"
+  },
+  {
+    "City_Name": "San Antonio, TX",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.45",
+    "Typical_Short_Fare": "$5.37",
+    "Typical_Medium_Fare": "$17.26",
+    "Typical_Long_Fare": "$31.51"
+  },
+  {
+    "City_Name": "Salt Lake_City, UT",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$5.00",
+    "Typical_Medium_Fare": "$15.53",
+    "Typical_Long_Fare": "$28.18"
+  },
+  {
+    "City_Name": "Sacramento, CA",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$7.67",
+    "Typical_Medium_Fare": "$22.60",
+    "Typical_Long_Fare": "$40.40"
+  },
+  {
+    "City_Name": "Rutherford, NJ",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$6.81",
+    "Typical_Medium_Fare": "$21.00",
+    "Typical_Long_Fare": "$37.50"
+  },
+  {
+    "City_Name": "Roswell, GA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$1.50",
+    "Typical_Short_Fare": "$4.13",
+    "Typical_Medium_Fare": "$10.13",
+    "Typical_Long_Fare": "$17.63"
+  },
+  {
+    "City_Name": "Rochester, NY",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$5.79",
+    "Typical_Medium_Fare": "$19.63",
+    "Typical_Long_Fare": "$36.38"
+  },
+  {
+    "City_Name": "Roanoke, VA",
+    "Initial_Charge": "$3.15",
+    "Per_Mile_Charge": "$2.10",
+    "Typical_Short_Fare": "$5.68",
+    "Typical_Medium_Fare": "$16.28",
+    "Typical_Long_Fare": "$28.88"
+  },
+  {
+    "City_Name": "Riverside, CA",
+    "Initial_Charge": "$2.60",
+    "Per_Mile_Charge": "$2.60",
+    "Typical_Short_Fare": "$5.65",
+    "Typical_Medium_Fare": "$17.70",
+    "Typical_Long_Fare": "$32.28"
+  },
+  {
+    "City_Name": "Rincon, GA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.28",
+    "Typical_Short_Fare": "$4.64",
+    "Typical_Medium_Fare": "$14.31",
+    "Typical_Long_Fare": "$26.23"
+  },
+  {
+    "City_Name": "Richmond, VA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.01",
+    "Typical_Medium_Fare": "$16.19",
+    "Typical_Long_Fare": "$29.81"
+  },
+  {
+    "City_Name": "Richmond, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.50",
+    "Typical_Short_Fare": "$7.28",
+    "Typical_Medium_Fare": "$23.90",
+    "Typical_Long_Fare": "$43.90"
+  },
+  {
+    "City_Name": "Richmond Hill, GA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.28",
+    "Typical_Short_Fare": "$4.64",
+    "Typical_Medium_Fare": "$14.31",
+    "Typical_Long_Fare": "$26.23"
+  },
+  {
+    "City_Name": "Richardson, TX",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$1.80",
+    "Typical_Short_Fare": "$4.53",
+    "Typical_Medium_Fare": "$13.30",
+    "Typical_Long_Fare": "$23.80"
+  },
+  {
+    "City_Name": "Revere, MA",
+    "Initial_Charge": "$2.60",
+    "Per_Mile_Charge": "$3.20",
+    "Typical_Short_Fare": "$6.80",
+    "Typical_Medium_Fare": "$22.66",
+    "Typical_Long_Fare": "$41.57"
+  },
+  {
+    "City_Name": "Reston, VA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.16",
+    "Typical_Short_Fare": "$6.85",
+    "Typical_Medium_Fare": "$19.07",
+    "Typical_Long_Fare": "$33.29"
+  },
+  {
+    "City_Name": "Rancho Cucamonga, CA",
+    "Initial_Charge": "$2.60",
+    "Per_Mile_Charge": "$2.60",
+    "Typical_Short_Fare": "$5.65",
+    "Typical_Medium_Fare": "$17.70",
+    "Typical_Long_Fare": "$32.28"
+  },
+  {
+    "City_Name": "Rancho Cordova, CA",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$7.67",
+    "Typical_Medium_Fare": "$22.60",
+    "Typical_Long_Fare": "$40.40"
+  },
+  {
+    "City_Name": "Raleigh, NC",
+    "Initial_Charge": "$1.95",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$4.51",
+    "Typical_Medium_Fare": "$16.08",
+    "Typical_Long_Fare": "$30.08"
+  },
+  {
+    "City_Name": "Providence, RI",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.50",
+    "Typical_Short_Fare": "$6.68",
+    "Typical_Medium_Fare": "$21.90",
+    "Typical_Long_Fare": "$40.57"
+  },
+  {
+    "City_Name": "Princeton, NJ",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$7.02",
+    "Typical_Medium_Fare": "$20.90",
+    "Typical_Long_Fare": "$37.70"
+  },
+  {
+    "City_Name": "Prince George\\'s County, MD",
+    "Initial_Charge": "$1.15",
+    "Per_Mile_Charge": "$1.08",
+    "Typical_Short_Fare": "$2.46",
+    "Typical_Medium_Fare": "$7.67",
+    "Typical_Long_Fare": "$13.92"
+  },
+  {
+    "City_Name": "Portland, OR",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.90",
+    "Typical_Short_Fare": "$8.32",
+    "Typical_Medium_Fare": "$25.50",
+    "Typical_Long_Fare": "$45.33"
+  },
+  {
+    "City_Name": "Portland, ME",
+    "Initial_Charge": "$1.90",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$4.96",
+    "Typical_Medium_Fare": "$17.80",
+    "Typical_Long_Fare": "$33.60"
+  },
+  {
+    "City_Name": "Portage, IN",
+    "Initial_Charge": "$10.00",
+    "Per_Mile_Charge": "$1.25",
+    "Typical_Short_Fare": "$11.57",
+    "Typical_Medium_Fare": "$17.31",
+    "Typical_Long_Fare": "$24.27"
+  },
+  {
+    "City_Name": "Pooler, GA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.28",
+    "Typical_Short_Fare": "$4.64",
+    "Typical_Medium_Fare": "$14.31",
+    "Typical_Long_Fare": "$26.23"
+  },
+  {
+    "City_Name": "Pomona, CA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.67",
+    "Typical_Medium_Fare": "$17.94",
+    "Typical_Long_Fare": "$32.60"
+  },
+  {
+    "City_Name": "Pleasanton, CA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.88",
+    "Typical_Medium_Fare": "$18.50",
+    "Typical_Long_Fare": "$33.50"
+  },
+  {
+    "City_Name": "Pleasant Hill, CA",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$6.59",
+    "Typical_Medium_Fare": "$20.73",
+    "Typical_Long_Fare": "$37.48"
+  },
+  {
+    "City_Name": "Plano, TX",
+    "Initial_Charge": "$2.95",
+    "Per_Mile_Charge": "$1.98",
+    "Typical_Short_Fare": "$5.84",
+    "Typical_Medium_Fare": "$16.38",
+    "Typical_Long_Fare": "$28.78"
+  },
+  {
+    "City_Name": "Placerville, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$6.46",
+    "Typical_Medium_Fare": "$20.20",
+    "Typical_Long_Fare": "$36.87"
+  },
+  {
+    "City_Name": "Pittsburgh, PA",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$1.75",
+    "Typical_Short_Fare": "$6.29",
+    "Typical_Medium_Fare": "$15.13",
+    "Typical_Long_Fare": "$25.63"
+  },
+  {
+    "City_Name": "Piedmont, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.60",
+    "Typical_Short_Fare": "$6.98",
+    "Typical_Medium_Fare": "$20.55",
+    "Typical_Long_Fare": "$36.58"
+  },
+  {
+    "City_Name": "Phoenix, AZ",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$7.01",
+    "Typical_Medium_Fare": "$20.57",
+    "Typical_Long_Fare": "$36.11"
+  },
+  {
+    "City_Name": "Philadelphia, PA",
+    "Initial_Charge": "$2.70",
+    "Per_Mile_Charge": "$2.30",
+    "Typical_Short_Fare": "$6.02",
+    "Typical_Medium_Fare": "$18.11",
+    "Typical_Long_Fare": "$32.37"
+  },
+  {
+    "City_Name": "Peoria, AZ",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$7.01",
+    "Typical_Medium_Fare": "$20.57",
+    "Typical_Long_Fare": "$36.11"
+  },
+  {
+    "City_Name": "Pensacola, FL",
+    "Initial_Charge": "$2.00",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$4.95",
+    "Typical_Medium_Fare": "$16.15",
+    "Typical_Long_Fare": "$29.50"
+  },
+  {
+    "City_Name": "Pearland, TX",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$7.56",
+    "Typical_Medium_Fare": "$19.50",
+    "Typical_Long_Fare": "$33.50"
+  },
+  {
+    "City_Name": "Peachtree_Corners, GA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$1.50",
+    "Typical_Short_Fare": "$4.13",
+    "Typical_Medium_Fare": "$10.13",
+    "Typical_Long_Fare": "$17.63"
+  },
+  {
+    "City_Name": "Paterson, NJ",
+    "Initial_Charge": "$4.95",
+    "Per_Mile_Charge": "$2.10",
+    "Typical_Short_Fare": "$8.86",
+    "Typical_Medium_Fare": "$21.45",
+    "Typical_Long_Fare": "$35.95"
+  },
+  {
+    "City_Name": "Pasadena, CA",
+    "Initial_Charge": "$2.85",
+    "Per_Mile_Charge": "$2.70",
+    "Typical_Short_Fare": "$7.14",
+    "Typical_Medium_Fare": "$22.30",
+    "Typical_Long_Fare": "$39.97"
+  },
+  {
+    "City_Name": "Palo Alto, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$8.08",
+    "Typical_Medium_Fare": "$25.58",
+    "Typical_Long_Fare": "$45.83"
+  },
+  {
+    "City_Name": "Palmdale, CA",
+    "Initial_Charge": "$2.85",
+    "Per_Mile_Charge": "$2.70",
+    "Typical_Short_Fare": "$7.14",
+    "Typical_Medium_Fare": "$22.30",
+    "Typical_Long_Fare": "$39.97"
+  },
+  {
+    "City_Name": "Palm Springs, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.12",
+    "Typical_Short_Fare": "$7.03",
+    "Typical_Medium_Fare": "$21.60",
+    "Typical_Long_Fare": "$39.20"
+  },
+  {
+    "City_Name": "Palm Desert, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.12",
+    "Typical_Short_Fare": "$7.03",
+    "Typical_Medium_Fare": "$21.60",
+    "Typical_Long_Fare": "$39.20"
+  },
+  {
+    "City_Name": "Palm Beach, FL",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.64",
+    "Typical_Short_Fare": "$5.71",
+    "Typical_Medium_Fare": "$18.34",
+    "Typical_Long_Fare": "$33.52"
+  },
+  {
+    "City_Name": "Ormond Beach, FL",
+    "Initial_Charge": "$4.20",
+    "Per_Mile_Charge": "$1.00",
+    "Typical_Short_Fare": "$5.00",
+    "Typical_Medium_Fare": "$9.00",
+    "Typical_Long_Fare": "$14.00"
+  },
+  {
+    "City_Name": "Orlando, FL",
+    "Initial_Charge": "$2.40",
+    "Per_Mile_Charge": "$2.40",
+    "Typical_Short_Fare": "$6.14",
+    "Typical_Medium_Fare": "$20.21",
+    "Typical_Long_Fare": "$36.49"
+  },
+  {
+    "City_Name": "Orange_County, CA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$7.25",
+    "Typical_Medium_Fare": "$22.16",
+    "Typical_Long_Fare": "$39.65"
+  },
+  {
+    "City_Name": "Ontario, CA",
+    "Initial_Charge": "$2.60",
+    "Per_Mile_Charge": "$2.60",
+    "Typical_Short_Fare": "$5.65",
+    "Typical_Medium_Fare": "$17.70",
+    "Typical_Long_Fare": "$32.28"
+  },
+  {
+    "City_Name": "Oneonta, NY",
+    "Initial_Charge": "$0.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$2.00",
+    "Typical_Medium_Fare": "$10.00",
+    "Typical_Long_Fare": "$20.00"
+  },
+  {
+    "City_Name": "Omaha / Council Bluffs, NE",
+    "Initial_Charge": "$2.95",
+    "Per_Mile_Charge": "$2.31",
+    "Typical_Short_Fare": "$6.20",
+    "Typical_Medium_Fare": "$18.49",
+    "Typical_Long_Fare": "$32.96"
+  },
+  {
+    "City_Name": "Oklahoma City, OK",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.48",
+    "Typical_Medium_Fare": "$16.10",
+    "Typical_Long_Fare": "$28.60"
+  },
+  {
+    "City_Name": "Odenton, MD",
+    "Initial_Charge": "$2.00",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.41",
+    "Typical_Medium_Fare": "$17.50",
+    "Typical_Long_Fare": "$32.00"
+  },
+  {
+    "City_Name": "Ocean City, MD",
+    "Initial_Charge": "$3.20",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$5.86",
+    "Typical_Medium_Fare": "$16.23",
+    "Typical_Long_Fare": "$28.73"
+  },
+  {
+    "City_Name": "Oakland, CA",
+    "Initial_Charge": "$3.20",
+    "Per_Mile_Charge": "$2.90",
+    "Typical_Short_Fare": "$7.45",
+    "Typical_Medium_Fare": "$22.85",
+    "Typical_Long_Fare": "$40.97"
+  },
+  {
+    "City_Name": "Nutley, NJ",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$6.81",
+    "Typical_Medium_Fare": "$21.00",
+    "Typical_Long_Fare": "$37.50"
+  },
+  {
+    "City_Name": "Norwalk, CT",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$6.64",
+    "Typical_Medium_Fare": "$19.43",
+    "Typical_Long_Fare": "$34.29"
+  },
+  {
+    "City_Name": "Norwalk, CA",
+    "Initial_Charge": "$2.85",
+    "Per_Mile_Charge": "$2.70",
+    "Typical_Short_Fare": "$7.14",
+    "Typical_Medium_Fare": "$22.30",
+    "Typical_Long_Fare": "$39.97"
+  },
+  {
+    "City_Name": "North Arlington, NJ",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$6.81",
+    "Typical_Medium_Fare": "$21.00",
+    "Typical_Long_Fare": "$37.50"
+  },
+  {
+    "City_Name": "Norman, OK",
+    "Initial_Charge": "$5.75",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$9.28",
+    "Typical_Medium_Fare": "$22.73",
+    "Typical_Long_Fare": "$38.81"
+  },
+  {
+    "City_Name": "Norfolk, VA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.10",
+    "Typical_Short_Fare": "$5.25",
+    "Typical_Medium_Fare": "$14.70",
+    "Typical_Long_Fare": "$26.20"
+  },
+  {
+    "City_Name": "Norcross, GA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$1.50",
+    "Typical_Short_Fare": "$4.13",
+    "Typical_Medium_Fare": "$10.13",
+    "Typical_Long_Fare": "$17.63"
+  },
+  {
+    "City_Name": "Newton, MA",
+    "Initial_Charge": "$2.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$4.91",
+    "Typical_Medium_Fare": "$19.00",
+    "Typical_Long_Fare": "$36.00"
+  },
+  {
+    "City_Name": "Newport, RI",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.50",
+    "Typical_Short_Fare": "$6.68",
+    "Typical_Medium_Fare": "$21.90",
+    "Typical_Long_Fare": "$40.57"
+  },
+  {
+    "City_Name": "Newport News, VA",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.10",
+    "Typical_Short_Fare": "$4.96",
+    "Typical_Medium_Fare": "$14.30",
+    "Typical_Long_Fare": "$25.70"
+  },
+  {
+    "City_Name": "Newark, NJ",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.55",
+    "Typical_Medium_Fare": "$16.90",
+    "Typical_Long_Fare": "$30.10"
+  },
+  {
+    "City_Name": "New York, NY",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$6.31",
+    "Typical_Medium_Fare": "$20.50",
+    "Typical_Long_Fare": "$37.00"
+  },
+  {
+    "City_Name": "New Smyrna Beach, FL",
+    "Initial_Charge": "$4.20",
+    "Per_Mile_Charge": "$1.00",
+    "Typical_Short_Fare": "$5.00",
+    "Typical_Medium_Fare": "$9.00",
+    "Typical_Long_Fare": "$14.00"
+  },
+  {
+    "City_Name": "New Orleans, LA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$6.61",
+    "Typical_Medium_Fare": "$17.75",
+    "Typical_Long_Fare": "$30.75"
+  },
+  {
+    "City_Name": "New London, CT",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$6.64",
+    "Typical_Medium_Fare": "$19.43",
+    "Typical_Long_Fare": "$34.29"
+  },
+  {
+    "City_Name": "New Jersey Shore, NJ",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$6.61",
+    "Typical_Medium_Fare": "$20.70",
+    "Typical_Long_Fare": "$37.70"
+  },
+  {
+    "City_Name": "New Haven, CT",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$6.64",
+    "Typical_Medium_Fare": "$19.43",
+    "Typical_Long_Fare": "$34.29"
+  },
+  {
+    "City_Name": "New Carrollton, MD",
+    "Initial_Charge": "$1.15",
+    "Per_Mile_Charge": "$1.08",
+    "Typical_Short_Fare": "$2.46",
+    "Typical_Medium_Fare": "$7.67",
+    "Typical_Long_Fare": "$13.92"
+  },
+  {
+    "City_Name": "Natick, MA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$6.52",
+    "Typical_Medium_Fare": "$20.88",
+    "Typical_Long_Fare": "$38.13"
+  },
+  {
+    "City_Name": "Nashville, TN",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.43",
+    "Typical_Medium_Fare": "$15.00",
+    "Typical_Long_Fare": "$26.50"
+  },
+  {
+    "City_Name": "Narragansett, RI",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.50",
+    "Typical_Short_Fare": "$6.68",
+    "Typical_Medium_Fare": "$21.90",
+    "Typical_Long_Fare": "$40.57"
+  },
+  {
+    "City_Name": "Naples, FL",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.40",
+    "Typical_Short_Fare": "$5.77",
+    "Typical_Medium_Fare": "$18.30",
+    "Typical_Long_Fare": "$33.10"
+  },
+  {
+    "City_Name": "Napa, CA",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$5.58",
+    "Typical_Medium_Fare": "$18.54",
+    "Typical_Long_Fare": "$34.16"
+  },
+  {
+    "City_Name": "Napa Valley, CA",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$5.58",
+    "Typical_Medium_Fare": "$18.54",
+    "Typical_Long_Fare": "$34.16"
+  },
+  {
+    "City_Name": "Mystic, CT",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$6.64",
+    "Typical_Medium_Fare": "$19.43",
+    "Typical_Long_Fare": "$34.29"
+  },
+  {
+    "City_Name": "Myrtle Beach, SC",
+    "Initial_Charge": "$1.50",
+    "Per_Mile_Charge": "$2.80",
+    "Typical_Short_Fare": "$5.17",
+    "Typical_Medium_Fare": "$18.36",
+    "Typical_Long_Fare": "$34.27"
+  },
+  {
+    "City_Name": "Mountain View, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$7.55",
+    "Typical_Medium_Fare": "$23.83",
+    "Typical_Long_Fare": "$42.91"
+  },
+  {
+    "City_Name": "Mount Rainier, MD",
+    "Initial_Charge": "$1.15",
+    "Per_Mile_Charge": "$1.08",
+    "Typical_Short_Fare": "$2.46",
+    "Typical_Medium_Fare": "$7.67",
+    "Typical_Long_Fare": "$13.92"
+  },
+  {
+    "City_Name": "Montgomery, TX",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$7.56",
+    "Typical_Medium_Fare": "$19.50",
+    "Typical_Long_Fare": "$33.50"
+  },
+  {
+    "City_Name": "Montgomery, AL",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$1.80",
+    "Typical_Short_Fare": "$5.44",
+    "Typical_Medium_Fare": "$14.83",
+    "Typical_Long_Fare": "$25.91"
+  },
+  {
+    "City_Name": "Monterey, CA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$5.78",
+    "Typical_Medium_Fare": "$18.00",
+    "Typical_Long_Fare": "$32.92"
+  },
+  {
+    "City_Name": "Modesto, CA",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$7.51",
+    "Typical_Medium_Fare": "$20.56",
+    "Typical_Long_Fare": "$35.98"
+  },
+  {
+    "City_Name": "Mocksville, NC",
+    "Initial_Charge": "$1.80",
+    "Per_Mile_Charge": "$2.10",
+    "Typical_Short_Fare": "$4.28",
+    "Typical_Medium_Fare": "$14.25",
+    "Typical_Long_Fare": "$26.25"
+  },
+  {
+    "City_Name": "Minneapolis, MN",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$6.29",
+    "Typical_Medium_Fare": "$19.68",
+    "Typical_Long_Fare": "$35.71"
+  },
+  {
+    "City_Name": "Milwaukee, WI",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$6.35",
+    "Typical_Medium_Fare": "$19.46",
+    "Typical_Long_Fare": "$34.94"
+  },
+  {
+    "City_Name": "Milpitas, CA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$8.01",
+    "Typical_Medium_Fare": "$24.20",
+    "Typical_Long_Fare": "$43.20"
+  },
+  {
+    "City_Name": "Miami, FL",
+    "Initial_Charge": "$2.95",
+    "Per_Mile_Charge": "$5.10",
+    "Typical_Short_Fare": "$8.47",
+    "Typical_Medium_Fare": "$21.00",
+    "Typical_Long_Fare": "$35.80"
+  },
+  {
+    "City_Name": "Mesa, AZ",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$7.01",
+    "Typical_Medium_Fare": "$20.57",
+    "Typical_Long_Fare": "$36.11"
+  },
+  {
+    "City_Name": "Memphis, TN",
+    "Initial_Charge": "$2.00",
+    "Per_Mile_Charge": "$1.80",
+    "Typical_Short_Fare": "$4.51",
+    "Typical_Medium_Fare": "$13.80",
+    "Typical_Long_Fare": "$24.80"
+  },
+  {
+    "City_Name": "McLean, VA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.16",
+    "Typical_Short_Fare": "$6.85",
+    "Typical_Medium_Fare": "$19.07",
+    "Typical_Long_Fare": "$33.29"
+  },
+  {
+    "City_Name": "McKinney, TX",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$1.80",
+    "Typical_Short_Fare": "$4.53",
+    "Typical_Medium_Fare": "$13.30",
+    "Typical_Long_Fare": "$23.80"
+  },
+  {
+    "City_Name": "Maui, HI",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$6.61",
+    "Typical_Medium_Fare": "$19.55",
+    "Typical_Long_Fare": "$35.45"
+  },
+  {
+    "City_Name": "Martinez, CA",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$6.59",
+    "Typical_Medium_Fare": "$20.73",
+    "Typical_Long_Fare": "$37.48"
+  },
+  {
+    "City_Name": "Mansfield, PA",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$1.75",
+    "Typical_Short_Fare": "$4.54",
+    "Typical_Medium_Fare": "$13.38",
+    "Typical_Long_Fare": "$23.88"
+  },
+  {
+    "City_Name": "Manistee, MI",
+    "Initial_Charge": "$5.00",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$7.25",
+    "Typical_Medium_Fare": "$16.25",
+    "Typical_Long_Fare": "$27.50"
+  },
+  {
+    "City_Name": "Manheim, PA",
+    "Initial_Charge": "$2.90",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.41",
+    "Typical_Medium_Fare": "$15.50",
+    "Typical_Long_Fare": "$27.50"
+  },
+  {
+    "City_Name": "Manassas, VA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.65",
+    "Typical_Medium_Fare": "$15.61",
+    "Typical_Long_Fare": "$27.49"
+  },
+  {
+    "City_Name": "Madison, WI",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$2.60",
+    "Typical_Short_Fare": "$7.49",
+    "Typical_Medium_Fare": "$20.40",
+    "Typical_Long_Fare": "$35.80"
+  },
+  {
+    "City_Name": "Madison, CT",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$6.64",
+    "Typical_Medium_Fare": "$19.43",
+    "Typical_Long_Fare": "$34.29"
+  },
+  {
+    "City_Name": "Lyndhurst, NJ",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$6.81",
+    "Typical_Medium_Fare": "$21.00",
+    "Typical_Long_Fare": "$37.50"
+  },
+  {
+    "City_Name": "Lubbock, TX",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$6.12",
+    "Typical_Medium_Fare": "$17.18",
+    "Typical_Long_Fare": "$30.09"
+  },
+  {
+    "City_Name": "Lowell, MA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$6.12",
+    "Typical_Medium_Fare": "$18.13",
+    "Typical_Long_Fare": "$32.54"
+  },
+  {
+    "City_Name": "Louisville, KY",
+    "Initial_Charge": "$2.45",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$5.23",
+    "Typical_Medium_Fare": "$16.12",
+    "Typical_Long_Fare": "$29.17"
+  },
+  {
+    "City_Name": "Los Gatos, CA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$8.01",
+    "Typical_Medium_Fare": "$24.20",
+    "Typical_Long_Fare": "$43.20"
+  },
+  {
+    "City_Name": "Los Angeles, CA",
+    "Initial_Charge": "$2.85",
+    "Per_Mile_Charge": "$2.70",
+    "Typical_Short_Fare": "$7.14",
+    "Typical_Medium_Fare": "$22.30",
+    "Typical_Long_Fare": "$39.97"
+  },
+  {
+    "City_Name": "Long Beach, CA",
+    "Initial_Charge": "$2.85",
+    "Per_Mile_Charge": "$2.70",
+    "Typical_Short_Fare": "$6.68",
+    "Typical_Medium_Fare": "$20.79",
+    "Typical_Long_Fare": "$37.46"
+  },
+  {
+    "City_Name": "Livermore, CA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.88",
+    "Typical_Medium_Fare": "$18.50",
+    "Typical_Long_Fare": "$33.50"
+  },
+  {
+    "City_Name": "Little Five Points, GA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$1.50",
+    "Typical_Short_Fare": "$4.13",
+    "Typical_Medium_Fare": "$10.13",
+    "Typical_Long_Fare": "$17.63"
+  },
+  {
+    "City_Name": "Lincoln, NE",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.31",
+    "Typical_Short_Fare": "$5.68",
+    "Typical_Medium_Fare": "$16.75",
+    "Typical_Long_Fare": "$30.05"
+  },
+  {
+    "City_Name": "Lexington, KY",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.13",
+    "Typical_Medium_Fare": "$16.00",
+    "Typical_Long_Fare": "$29.33"
+  },
+  {
+    "City_Name": "Lewisburg, PA",
+    "Initial_Charge": "$2.90",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.41",
+    "Typical_Medium_Fare": "$15.50",
+    "Typical_Long_Fare": "$27.50"
+  },
+  {
+    "City_Name": "Leominster, MA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$6.12",
+    "Typical_Medium_Fare": "$18.13",
+    "Typical_Long_Fare": "$32.54"
+  },
+  {
+    "City_Name": "Leesburg, VA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.40",
+    "Typical_Short_Fare": "$8.62",
+    "Typical_Medium_Fare": "$24.50",
+    "Typical_Long_Fare": "$42.50"
+  },
+  {
+    "City_Name": "Lawrence, KS",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.82",
+    "Typical_Medium_Fare": "$18.44",
+    "Typical_Long_Fare": "$33.44"
+  },
+  {
+    "City_Name": "Laurel, MD",
+    "Initial_Charge": "$1.15",
+    "Per_Mile_Charge": "$1.08",
+    "Typical_Short_Fare": "$2.46",
+    "Typical_Medium_Fare": "$7.67",
+    "Typical_Long_Fare": "$13.92"
+  },
+  {
+    "City_Name": "Las Vegas, NV",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.76",
+    "Typical_Short_Fare": "$7.50",
+    "Typical_Medium_Fare": "$21.93",
+    "Typical_Long_Fare": "$38.97"
+  },
+  {
+    "City_Name": "Laredo, TX",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$6.54",
+    "Typical_Medium_Fare": "$16.38",
+    "Typical_Long_Fare": "$28.13"
+  },
+  {
+    "City_Name": "Lansing, MI",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.91",
+    "Typical_Medium_Fare": "$18.00",
+    "Typical_Long_Fare": "$32.50"
+  },
+  {
+    "City_Name": "Lancaster, PA",
+    "Initial_Charge": "$2.90",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.41",
+    "Typical_Medium_Fare": "$15.50",
+    "Typical_Long_Fare": "$27.50"
+  },
+  {
+    "City_Name": "Lancaster, CA",
+    "Initial_Charge": "$2.85",
+    "Per_Mile_Charge": "$2.70",
+    "Typical_Short_Fare": "$7.14",
+    "Typical_Medium_Fare": "$22.30",
+    "Typical_Long_Fare": "$39.97"
+  },
+  {
+    "City_Name": "Lafayette, CA",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$6.59",
+    "Typical_Medium_Fare": "$20.73",
+    "Typical_Long_Fare": "$37.48"
+  },
+  {
+    "City_Name": "Lackawanna County, PA",
+    "Initial_Charge": "$2.95",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$6.47",
+    "Typical_Medium_Fare": "$21.40",
+    "Typical_Long_Fare": "$39.20"
+  },
+  {
+    "City_Name": "Kyle, TX",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$7.01",
+    "Typical_Medium_Fare": "$19.63",
+    "Typical_Long_Fare": "$34.63"
+  },
+  {
+    "City_Name": "Knoxville, TN",
+    "Initial_Charge": "$2.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$4.14",
+    "Typical_Medium_Fare": "$12.93",
+    "Typical_Long_Fare": "$23.68"
+  },
+  {
+    "City_Name": "Kiawah Island, SC",
+    "Initial_Charge": "$5.00",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$7.45",
+    "Typical_Medium_Fare": "$18.50",
+    "Typical_Long_Fare": "$32.00"
+  },
+  {
+    "City_Name": "Keller, TX",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$1.80",
+    "Typical_Short_Fare": "$4.53",
+    "Typical_Medium_Fare": "$13.30",
+    "Typical_Long_Fare": "$23.80"
+  },
+  {
+    "City_Name": "Kauai, HI",
+    "Initial_Charge": "$3.10",
+    "Per_Mile_Charge": "$3.60",
+    "Typical_Short_Fare": "$8.33",
+    "Typical_Medium_Fare": "$26.50",
+    "Typical_Long_Fare": "$48.10"
+  },
+  {
+    "City_Name": "Kansas City, MO",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.10",
+    "Typical_Short_Fare": "$6.96",
+    "Typical_Medium_Fare": "$21.29",
+    "Typical_Long_Fare": "$37.46"
+  },
+  {
+    "City_Name": "Johns Creek, GA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$1.50",
+    "Typical_Short_Fare": "$4.13",
+    "Typical_Medium_Fare": "$10.13",
+    "Typical_Long_Fare": "$17.63"
+  },
+  {
+    "City_Name": "Jersey City, NJ",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$6.31",
+    "Typical_Medium_Fare": "$19.50",
+    "Typical_Long_Fare": "$34.75"
+  },
+  {
+    "City_Name": "Jamestown, RI",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.50",
+    "Typical_Short_Fare": "$6.68",
+    "Typical_Medium_Fare": "$21.90",
+    "Typical_Long_Fare": "$40.57"
+  },
+  {
+    "City_Name": "Jacksonville, FL",
+    "Initial_Charge": "$2.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$4.82",
+    "Typical_Medium_Fare": "$15.63",
+    "Typical_Long_Fare": "$28.31"
+  },
+  {
+    "City_Name": "Jackson, MS",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$6.57",
+    "Typical_Medium_Fare": "$20.58",
+    "Typical_Long_Fare": "$37.49"
+  },
+  {
+    "City_Name": "Isle of Palms, SC",
+    "Initial_Charge": "$5.00",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$7.45",
+    "Typical_Medium_Fare": "$18.50",
+    "Typical_Long_Fare": "$32.00"
+  },
+  {
+    "City_Name": "Irving, TX",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$1.80",
+    "Typical_Short_Fare": "$4.53",
+    "Typical_Medium_Fare": "$13.30",
+    "Typical_Long_Fare": "$23.80"
+  },
+  {
+    "City_Name": "Irvine, CA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$7.46",
+    "Typical_Medium_Fare": "$21.25",
+    "Typical_Long_Fare": "$37.67"
+  },
+  {
+    "City_Name": "Iowa City, IA",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$7.08",
+    "Typical_Medium_Fare": "$23.00",
+    "Typical_Long_Fare": "$41.75"
+  },
+  {
+    "City_Name": "Inland Empire, CA",
+    "Initial_Charge": "$2.60",
+    "Per_Mile_Charge": "$2.60",
+    "Typical_Short_Fare": "$5.65",
+    "Typical_Medium_Fare": "$17.70",
+    "Typical_Long_Fare": "$32.28"
+  },
+  {
+    "City_Name": "Inglewood, CA",
+    "Initial_Charge": "$2.85",
+    "Per_Mile_Charge": "$2.70",
+    "Typical_Short_Fare": "$7.14",
+    "Typical_Medium_Fare": "$22.30",
+    "Typical_Long_Fare": "$39.97"
+  },
+  {
+    "City_Name": "Indianapolis, IN",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.33",
+    "Typical_Medium_Fare": "$15.00",
+    "Typical_Long_Fare": "$26.60"
+  },
+  {
+    "City_Name": "Independence, MO",
+    "Initial_Charge": "$12.00",
+    "Per_Mile_Charge": "$1.75",
+    "Typical_Short_Fare": "$12.00",
+    "Typical_Medium_Fare": "$13.75",
+    "Typical_Long_Fare": "$22.50"
+  },
+  {
+    "City_Name": "Hyattsville, MD",
+    "Initial_Charge": "$1.15",
+    "Per_Mile_Charge": "$1.08",
+    "Typical_Short_Fare": "$2.46",
+    "Typical_Medium_Fare": "$7.67",
+    "Typical_Long_Fare": "$13.92"
+  },
+  {
+    "City_Name": "Huntsville, AL",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.26",
+    "Typical_Medium_Fare": "$15.00",
+    "Typical_Long_Fare": "$26.67"
+  },
+  {
+    "City_Name": "Huntington Beach, CA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$7.25",
+    "Typical_Medium_Fare": "$22.16",
+    "Typical_Long_Fare": "$39.65"
+  },
+  {
+    "City_Name": "Houston, TX",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$5.57",
+    "Typical_Medium_Fare": "$16.28",
+    "Typical_Long_Fare": "$29.10"
+  },
+  {
+    "City_Name": "Honolulu, HI",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$3.60",
+    "Typical_Short_Fare": "$8.53",
+    "Typical_Medium_Fare": "$27.27",
+    "Typical_Long_Fare": "$49.42"
+  },
+  {
+    "City_Name": "Hilton Head Island, SC",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$6.18",
+    "Typical_Medium_Fare": "$15.05",
+    "Typical_Long_Fare": "$25.88"
+  },
+  {
+    "City_Name": "Hialeah, FL",
+    "Initial_Charge": "$2.95",
+    "Per_Mile_Charge": "$5.10",
+    "Typical_Short_Fare": "$8.47",
+    "Typical_Medium_Fare": "$21.00",
+    "Typical_Long_Fare": "$35.80"
+  },
+  {
+    "City_Name": "Henrico, VA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$6.70",
+    "Typical_Medium_Fare": "$20.63",
+    "Typical_Long_Fare": "$36.88"
+  },
+  {
+    "City_Name": "Henderson, NV",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.76",
+    "Typical_Short_Fare": "$7.50",
+    "Typical_Medium_Fare": "$21.93",
+    "Typical_Long_Fare": "$38.97"
+  },
+  {
+    "City_Name": "Hayward, CA",
+    "Initial_Charge": "$3.20",
+    "Per_Mile_Charge": "$2.90",
+    "Typical_Short_Fare": "$7.45",
+    "Typical_Medium_Fare": "$22.85",
+    "Typical_Long_Fare": "$40.97"
+  },
+  {
+    "City_Name": "Hasbrouck Heights, NJ",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$6.81",
+    "Typical_Medium_Fare": "$21.00",
+    "Typical_Long_Fare": "$37.50"
+  },
+  {
+    "City_Name": "Hartford, CT",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$6.64",
+    "Typical_Medium_Fare": "$19.43",
+    "Typical_Long_Fare": "$34.29"
+  },
+  {
+    "City_Name": "Harrisburg, PA",
+    "Initial_Charge": "$2.90",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.41",
+    "Typical_Medium_Fare": "$15.50",
+    "Typical_Long_Fare": "$27.50"
+  },
+  {
+    "City_Name": "Hamptons, NY",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$6.61",
+    "Typical_Medium_Fare": "$20.70",
+    "Typical_Long_Fare": "$37.70"
+  },
+  {
+    "City_Name": "Hampton, VA",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.10",
+    "Typical_Short_Fare": "$5.37",
+    "Typical_Medium_Fare": "$15.65",
+    "Typical_Long_Fare": "$27.95"
+  },
+  {
+    "City_Name": "Hackensack, NJ",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$6.81",
+    "Typical_Medium_Fare": "$21.00",
+    "Typical_Long_Fare": "$37.50"
+  },
+  {
+    "City_Name": "Guerneville, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$6.15",
+    "Typical_Medium_Fare": "$19.20",
+    "Typical_Long_Fare": "$35.20"
+  },
+  {
+    "City_Name": "Greenwich, CT",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$6.64",
+    "Typical_Medium_Fare": "$19.43",
+    "Typical_Long_Fare": "$34.29"
+  },
+  {
+    "City_Name": "Greenville, SC",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$1.50",
+    "Typical_Short_Fare": "$4.68",
+    "Typical_Medium_Fare": "$12.25",
+    "Typical_Long_Fare": "$21.25"
+  },
+  {
+    "City_Name": "Greensboro, NC",
+    "Initial_Charge": "$2.80",
+    "Per_Mile_Charge": "$2.10",
+    "Typical_Short_Fare": "$5.12",
+    "Typical_Medium_Fare": "$14.57",
+    "Typical_Long_Fare": "$26.07"
+  },
+  {
+    "City_Name": "Greenbelt, MD",
+    "Initial_Charge": "$1.15",
+    "Per_Mile_Charge": "$1.08",
+    "Typical_Short_Fare": "$2.46",
+    "Typical_Medium_Fare": "$7.67",
+    "Typical_Long_Fare": "$13.92"
+  },
+  {
+    "City_Name": "Grapevine, TX",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$1.80",
+    "Typical_Short_Fare": "$4.53",
+    "Typical_Medium_Fare": "$13.30",
+    "Typical_Long_Fare": "$23.80"
+  },
+  {
+    "City_Name": "Grand Rapids, MI",
+    "Initial_Charge": "$3.30",
+    "Per_Mile_Charge": "$1.80",
+    "Typical_Short_Fare": "$4.98",
+    "Typical_Medium_Fare": "$13.28",
+    "Typical_Long_Fare": "$23.33"
+  },
+  {
+    "City_Name": "Gloucester, MA",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$3.50",
+    "Typical_Short_Fare": "$4.15",
+    "Typical_Medium_Fare": "$18.50",
+    "Typical_Long_Fare": "$31.33"
+  },
+  {
+    "City_Name": "Glendale, CA",
+    "Initial_Charge": "$2.85",
+    "Per_Mile_Charge": "$2.70",
+    "Typical_Short_Fare": "$7.14",
+    "Typical_Medium_Fare": "$22.30",
+    "Typical_Long_Fare": "$39.97"
+  },
+  {
+    "City_Name": "Glendale, AZ",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$7.01",
+    "Typical_Medium_Fare": "$20.57",
+    "Typical_Long_Fare": "$36.11"
+  },
+  {
+    "City_Name": "Glenarden, MD",
+    "Initial_Charge": "$1.15",
+    "Per_Mile_Charge": "$1.08",
+    "Typical_Short_Fare": "$2.46",
+    "Typical_Medium_Fare": "$7.67",
+    "Typical_Long_Fare": "$13.92"
+  },
+  {
+    "City_Name": "Gilbert, AZ",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$7.01",
+    "Typical_Medium_Fare": "$20.57",
+    "Typical_Long_Fare": "$36.11"
+  },
+  {
+    "City_Name": "Garland, TX",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$1.80",
+    "Typical_Short_Fare": "$4.53",
+    "Typical_Medium_Fare": "$13.30",
+    "Typical_Long_Fare": "$23.80"
+  },
+  {
+    "City_Name": "Garden Grove, CA",
+    "Initial_Charge": "$2.85",
+    "Per_Mile_Charge": "$2.70",
+    "Typical_Short_Fare": "$7.14",
+    "Typical_Medium_Fare": "$22.30",
+    "Typical_Long_Fare": "$39.97"
+  },
+  {
+    "City_Name": "Gainesville, FL",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.80",
+    "Typical_Short_Fare": "$6.58",
+    "Typical_Medium_Fare": "$19.35",
+    "Typical_Long_Fare": "$34.85"
+  },
+  {
+    "City_Name": "Fulshear, TX",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$7.56",
+    "Typical_Medium_Fare": "$19.50",
+    "Typical_Long_Fare": "$33.50"
+  },
+  {
+    "City_Name": "Fullerton, CA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$7.25",
+    "Typical_Medium_Fare": "$22.16",
+    "Typical_Long_Fare": "$39.65"
+  },
+  {
+    "City_Name": "Frisco, TX",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$1.80",
+    "Typical_Short_Fare": "$4.53",
+    "Typical_Medium_Fare": "$13.30",
+    "Typical_Long_Fare": "$23.80"
+  },
+  {
+    "City_Name": "Friendswood, TX",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$7.56",
+    "Typical_Medium_Fare": "$19.50",
+    "Typical_Long_Fare": "$33.50"
+  },
+  {
+    "City_Name": "Fresno, CA",
+    "Initial_Charge": "$3.40",
+    "Per_Mile_Charge": "$2.45",
+    "Typical_Short_Fare": "$6.38",
+    "Typical_Medium_Fare": "$18.54",
+    "Typical_Long_Fare": "$33.04"
+  },
+  {
+    "City_Name": "Fremont, NE",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$5.70",
+    "Typical_Medium_Fare": "$18.19",
+    "Typical_Long_Fare": "$32.77"
+  },
+  {
+    "City_Name": "Fremont, CA",
+    "Initial_Charge": "$3.25",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$7.54",
+    "Typical_Medium_Fare": "$23.20",
+    "Typical_Long_Fare": "$41.70"
+  },
+  {
+    "City_Name": "Framingham, MA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$6.52",
+    "Typical_Medium_Fare": "$20.88",
+    "Typical_Long_Fare": "$38.13"
+  },
+  {
+    "City_Name": "Fort Worth, TX",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$1.80",
+    "Typical_Short_Fare": "$4.53",
+    "Typical_Medium_Fare": "$13.30",
+    "Typical_Long_Fare": "$23.80"
+  },
+  {
+    "City_Name": "Fort Wayne, IN",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.37",
+    "Typical_Medium_Fare": "$16.94",
+    "Typical_Long_Fare": "$30.94"
+  },
+  {
+    "City_Name": "Fort Meade, MD",
+    "Initial_Charge": "$2.00",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.41",
+    "Typical_Medium_Fare": "$17.50",
+    "Typical_Long_Fare": "$32.00"
+  },
+  {
+    "City_Name": "Fort Lauderdale, FL",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.40",
+    "Typical_Short_Fare": "$5.04",
+    "Typical_Medium_Fare": "$15.90",
+    "Typical_Long_Fare": "$29.10"
+  },
+  {
+    "City_Name": "Fort Collins, CO",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$7.09",
+    "Typical_Medium_Fare": "$19.75",
+    "Typical_Long_Fare": "$34.50"
+  },
+  {
+    "City_Name": "Fontana, CA",
+    "Initial_Charge": "$2.60",
+    "Per_Mile_Charge": "$2.60",
+    "Typical_Short_Fare": "$5.65",
+    "Typical_Medium_Fare": "$17.70",
+    "Typical_Long_Fare": "$32.28"
+  },
+  {
+    "City_Name": "Folly Beach, SC",
+    "Initial_Charge": "$5.00",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$7.45",
+    "Typical_Medium_Fare": "$18.50",
+    "Typical_Long_Fare": "$32.00"
+  },
+  {
+    "City_Name": "Fayetteville, NC",
+    "Initial_Charge": "$2.10",
+    "Per_Mile_Charge": "$2.40",
+    "Typical_Short_Fare": "$3.46",
+    "Typical_Medium_Fare": "$16.20",
+    "Typical_Long_Fare": "$31.20"
+  },
+  {
+    "City_Name": "Farmington, CT",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$6.64",
+    "Typical_Medium_Fare": "$19.43",
+    "Typical_Long_Fare": "$34.29"
+  },
+  {
+    "City_Name": "Fargo, ND",
+    "Initial_Charge": "$4.50",
+    "Per_Mile_Charge": "$1.60",
+    "Typical_Short_Fare": "$6.92",
+    "Typical_Medium_Fare": "$15.20",
+    "Typical_Long_Fare": "$25.00"
+  },
+  {
+    "City_Name": "Falls Church, VA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.16",
+    "Typical_Short_Fare": "$6.85",
+    "Typical_Medium_Fare": "$19.07",
+    "Typical_Long_Fare": "$33.29"
+  },
+  {
+    "City_Name": "Fairfield, CA",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$5.07",
+    "Typical_Medium_Fare": "$16.03",
+    "Typical_Long_Fare": "$29.16"
+  },
+  {
+    "City_Name": "Fairfax, VA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.16",
+    "Typical_Short_Fare": "$6.85",
+    "Typical_Medium_Fare": "$19.07",
+    "Typical_Long_Fare": "$33.29"
+  },
+  {
+    "City_Name": "Everett, WA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.30",
+    "Typical_Short_Fare": "$7.52",
+    "Typical_Medium_Fare": "$23.00",
+    "Typical_Long_Fare": "$40.50"
+  },
+  {
+    "City_Name": "Eugene, OR",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$5.20",
+    "Typical_Medium_Fare": "$15.25",
+    "Typical_Long_Fare": "$27.50"
+  },
+  {
+    "City_Name": "Escondido, CA",
+    "Initial_Charge": "$2.95",
+    "Per_Mile_Charge": "$2.60",
+    "Typical_Short_Fare": "$6.03",
+    "Typical_Medium_Fare": "$19.05",
+    "Typical_Long_Fare": "$34.55"
+  },
+  {
+    "City_Name": "Erie, PA",
+    "Initial_Charge": "$2.65",
+    "Per_Mile_Charge": "$2.45",
+    "Typical_Short_Fare": "$5.54",
+    "Typical_Medium_Fare": "$17.18",
+    "Typical_Long_Fare": "$31.18"
+  },
+  {
+    "City_Name": "Encinitas, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$7.51",
+    "Typical_Medium_Fare": "$23.00",
+    "Typical_Long_Fare": "$41.33"
+  },
+  {
+    "City_Name": "Emeryville, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.60",
+    "Typical_Short_Fare": "$6.98",
+    "Typical_Medium_Fare": "$20.55",
+    "Typical_Long_Fare": "$36.58"
+  },
+  {
+    "City_Name": "Emerald Isle, NC",
+    "Initial_Charge": "$2.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$4.71",
+    "Typical_Medium_Fare": "$14.80",
+    "Typical_Long_Fare": "$26.80"
+  },
+  {
+    "City_Name": "El Paso, TX",
+    "Initial_Charge": "$1.65",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$4.81",
+    "Typical_Medium_Fare": "$16.95",
+    "Typical_Long_Fare": "$31.20"
+  },
+  {
+    "City_Name": "El_Monte, CA",
+    "Initial_Charge": "$2.85",
+    "Per_Mile_Charge": "$2.70",
+    "Typical_Short_Fare": "$7.14",
+    "Typical_Medium_Fare": "$22.30",
+    "Typical_Long_Fare": "$39.97"
+  },
+  {
+    "City_Name": "El_Cerrito, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.60",
+    "Typical_Short_Fare": "$6.98",
+    "Typical_Medium_Fare": "$20.55",
+    "Typical_Long_Fare": "$36.58"
+  },
+  {
+    "City_Name": "Edgewater, FL",
+    "Initial_Charge": "$4.20",
+    "Per_Mile_Charge": "$1.00",
+    "Typical_Short_Fare": "$5.00",
+    "Typical_Medium_Fare": "$9.00",
+    "Typical_Long_Fare": "$14.00"
+  },
+  {
+    "City_Name": "East Rutherford, NJ",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$6.81",
+    "Typical_Medium_Fare": "$21.00",
+    "Typical_Long_Fare": "$37.50"
+  },
+  {
+    "City_Name": "Durham, NC",
+    "Initial_Charge": "$3.60",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$6.09",
+    "Typical_Medium_Fare": "$15.79",
+    "Typical_Long_Fare": "$27.41"
+  },
+  {
+    "City_Name": "Dunwoody, GA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$1.50",
+    "Typical_Short_Fare": "$4.13",
+    "Typical_Medium_Fare": "$10.13",
+    "Typical_Long_Fare": "$17.63"
+  },
+  {
+    "City_Name": "Duluth, MN",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.09",
+    "Typical_Medium_Fare": "$15.88",
+    "Typical_Long_Fare": "$29.13"
+  },
+  {
+    "City_Name": "Duluth, GA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$1.50",
+    "Typical_Short_Fare": "$4.13",
+    "Typical_Medium_Fare": "$10.13",
+    "Typical_Long_Fare": "$17.63"
+  },
+  {
+    "City_Name": "Dulles, VA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$6.36",
+    "Typical_Medium_Fare": "$17.50",
+    "Typical_Long_Fare": "$30.50"
+  },
+  {
+    "City_Name": "Dublin, CA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.88",
+    "Typical_Medium_Fare": "$18.50",
+    "Typical_Long_Fare": "$33.50"
+  },
+  {
+    "City_Name": "Downey, CA",
+    "Initial_Charge": "$2.85",
+    "Per_Mile_Charge": "$2.70",
+    "Typical_Short_Fare": "$7.14",
+    "Typical_Medium_Fare": "$22.30",
+    "Typical_Long_Fare": "$39.97"
+  },
+  {
+    "City_Name": "Dover, DE",
+    "Initial_Charge": "$3.25",
+    "Per_Mile_Charge": "$3.50",
+    "Typical_Short_Fare": "$7.31",
+    "Typical_Medium_Fare": "$23.40",
+    "Typical_Long_Fare": "$42.90"
+  },
+  {
+    "City_Name": "District Heights, MD",
+    "Initial_Charge": "$1.15",
+    "Per_Mile_Charge": "$1.08",
+    "Typical_Short_Fare": "$2.46",
+    "Typical_Medium_Fare": "$7.67",
+    "Typical_Long_Fare": "$13.92"
+  },
+  {
+    "City_Name": "Detroit, MI",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$1.60",
+    "Typical_Short_Fare": "$4.35",
+    "Typical_Medium_Fare": "$11.80",
+    "Typical_Long_Fare": "$20.80"
+  },
+  {
+    "City_Name": "Des Moines, IA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$3.04",
+    "Typical_Medium_Fare": "$12.30",
+    "Typical_Long_Fare": "$23.50"
+  },
+  {
+    "City_Name": "Denver, CO",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$5.01",
+    "Typical_Medium_Fare": "$15.19",
+    "Typical_Long_Fare": "$27.56"
+  },
+  {
+    "City_Name": "Daytona Beach, FL",
+    "Initial_Charge": "$2.20",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.81",
+    "Typical_Medium_Fare": "$18.00",
+    "Typical_Long_Fare": "$32.00"
+  },
+  {
+    "City_Name": "Davis, CA",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$7.61",
+    "Typical_Medium_Fare": "$21.70",
+    "Typical_Long_Fare": "$38.70"
+  },
+  {
+    "City_Name": "Danville, CA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.88",
+    "Typical_Medium_Fare": "$18.50",
+    "Typical_Long_Fare": "$33.50"
+  },
+  {
+    "City_Name": "Danbury, CT",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$6.64",
+    "Typical_Medium_Fare": "$19.43",
+    "Typical_Long_Fare": "$34.29"
+  },
+  {
+    "City_Name": "Dallas, TX",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$1.80",
+    "Typical_Short_Fare": "$4.53",
+    "Typical_Medium_Fare": "$13.30",
+    "Typical_Long_Fare": "$23.80"
+  },
+  {
+    "City_Name": "Cupertino, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$7.55",
+    "Typical_Medium_Fare": "$23.83",
+    "Typical_Long_Fare": "$42.91"
+  },
+  {
+    "City_Name": "Crofton, MD",
+    "Initial_Charge": "$2.00",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.41",
+    "Typical_Medium_Fare": "$17.50",
+    "Typical_Long_Fare": "$32.00"
+  },
+  {
+    "City_Name": "Costa Mesa, CA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$7.25",
+    "Typical_Medium_Fare": "$22.16",
+    "Typical_Long_Fare": "$39.65"
+  },
+  {
+    "City_Name": "Corpus Christi, TX",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$5.11",
+    "Typical_Medium_Fare": "$17.05",
+    "Typical_Long_Fare": "$31.70"
+  },
+  {
+    "City_Name": "Cooperstown, NY",
+    "Initial_Charge": "$0.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$2.00",
+    "Typical_Medium_Fare": "$10.00",
+    "Typical_Long_Fare": "$20.00"
+  },
+  {
+    "City_Name": "Conroe, TX",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$7.56",
+    "Typical_Medium_Fare": "$19.50",
+    "Typical_Long_Fare": "$33.50"
+  },
+  {
+    "City_Name": "Concord, CA",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$6.59",
+    "Typical_Medium_Fare": "$20.73",
+    "Typical_Long_Fare": "$37.48"
+  },
+  {
+    "City_Name": "Columbus, OH",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.02",
+    "Typical_Short_Fare": "$6.22",
+    "Typical_Medium_Fare": "$17.60",
+    "Typical_Long_Fare": "$30.85"
+  },
+  {
+    "City_Name": "Columbus, GA",
+    "Initial_Charge": "$2.16",
+    "Per_Mile_Charge": "$2.14",
+    "Typical_Short_Fare": "$4.56",
+    "Typical_Medium_Fare": "$14.95",
+    "Typical_Long_Fare": "$27.40"
+  },
+  {
+    "City_Name": "Columbia, SC",
+    "Initial_Charge": "$2.00",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.04",
+    "Typical_Medium_Fare": "$16.30",
+    "Typical_Long_Fare": "$30.00"
+  },
+  {
+    "City_Name": "Colorado Springs, CO",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.40",
+    "Typical_Short_Fare": "$5.54",
+    "Typical_Medium_Fare": "$17.23",
+    "Typical_Long_Fare": "$31.23"
+  },
+  {
+    "City_Name": "College Park, MD",
+    "Initial_Charge": "$1.15",
+    "Per_Mile_Charge": "$1.08",
+    "Typical_Short_Fare": "$2.46",
+    "Typical_Medium_Fare": "$7.67",
+    "Typical_Long_Fare": "$13.92"
+  },
+  {
+    "City_Name": "Coachella Valley, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.12",
+    "Typical_Short_Fare": "$7.03",
+    "Typical_Medium_Fare": "$21.60",
+    "Typical_Long_Fare": "$39.20"
+  },
+  {
+    "City_Name": "Cleveland, TX",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$7.56",
+    "Typical_Medium_Fare": "$19.50",
+    "Typical_Long_Fare": "$33.50"
+  },
+  {
+    "City_Name": "Cleveland, OH",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.24",
+    "Typical_Short_Fare": "$5.39",
+    "Typical_Medium_Fare": "$15.92",
+    "Typical_Long_Fare": "$28.62"
+  },
+  {
+    "City_Name": "Clayton, CA",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$6.59",
+    "Typical_Medium_Fare": "$20.73",
+    "Typical_Long_Fare": "$37.48"
+  },
+  {
+    "City_Name": "Cincinnati, OH",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$7.11",
+    "Typical_Medium_Fare": "$18.25",
+    "Typical_Long_Fare": "$31.25"
+  },
+  {
+    "City_Name": "Chula Vista, CA",
+    "Initial_Charge": "$2.80",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$6.41",
+    "Typical_Medium_Fare": "$20.50",
+    "Typical_Long_Fare": "$37.50"
+  },
+  {
+    "City_Name": "Chicago, IL",
+    "Initial_Charge": "$3.25",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$6.79",
+    "Typical_Medium_Fare": "$19.28",
+    "Typical_Long_Fare": "$33.86"
+  },
+  {
+    "City_Name": "Chesapeake, VA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.40",
+    "Typical_Short_Fare": "$6.90",
+    "Typical_Medium_Fare": "$20.90",
+    "Typical_Long_Fare": "$37.10"
+  },
+  {
+    "City_Name": "Chattanooga, TN",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.21",
+    "Typical_Medium_Fare": "$15.30",
+    "Typical_Long_Fare": "$27.30"
+  },
+  {
+    "City_Name": "Charlottesville, VA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$7.29",
+    "Typical_Medium_Fare": "$22.95",
+    "Typical_Long_Fare": "$41.45"
+  },
+  {
+    "City_Name": "Charlotte, NC",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.63",
+    "Typical_Medium_Fare": "$18.25",
+    "Typical_Long_Fare": "$33.25"
+  },
+  {
+    "City_Name": "Charleston, SC",
+    "Initial_Charge": "$5.00",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$7.45",
+    "Typical_Medium_Fare": "$18.50",
+    "Typical_Long_Fare": "$32.00"
+  },
+  {
+    "City_Name": "Chapel Hill, NC",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$4.60",
+    "Typical_Medium_Fare": "$15.13",
+    "Typical_Long_Fare": "$28.13"
+  },
+  {
+    "City_Name": "Chandler, AZ",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$7.01",
+    "Typical_Medium_Fare": "$20.57",
+    "Typical_Long_Fare": "$36.11"
+  },
+  {
+    "City_Name": "Champaign/Urbana, IL",
+    "Initial_Charge": "$2.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$3.02",
+    "Typical_Medium_Fare": "$13.38",
+    "Typical_Long_Fare": "$25.63"
+  },
+  {
+    "City_Name": "Cedar Rapids, IA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$7.18",
+    "Typical_Medium_Fare": "$20.75",
+    "Typical_Long_Fare": "$37.25"
+  },
+  {
+    "City_Name": "Castro Valley, CA",
+    "Initial_Charge": "$3.20",
+    "Per_Mile_Charge": "$2.90",
+    "Typical_Short_Fare": "$7.45",
+    "Typical_Medium_Fare": "$22.85",
+    "Typical_Long_Fare": "$40.97"
+  },
+  {
+    "City_Name": "Carolina Beach, NC",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.10",
+    "Typical_Short_Fare": "$5.63",
+    "Typical_Medium_Fare": "$15.86",
+    "Typical_Long_Fare": "$28.11"
+  },
+  {
+    "City_Name": "Carlstadt, NJ",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$6.81",
+    "Typical_Medium_Fare": "$21.00",
+    "Typical_Long_Fare": "$37.50"
+  },
+  {
+    "City_Name": "Cape_Cod, MA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.25",
+    "Typical_Short_Fare": "$6.91",
+    "Typical_Medium_Fare": "$24.45",
+    "Typical_Long_Fare": "$45.03"
+  },
+  {
+    "City_Name": "Campbell, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$7.55",
+    "Typical_Medium_Fare": "$23.83",
+    "Typical_Long_Fare": "$42.91"
+  },
+  {
+    "City_Name": "Cambridge, MA",
+    "Initial_Charge": "$1.95",
+    "Per_Mile_Charge": "$3.60",
+    "Typical_Short_Fare": "$6.61",
+    "Typical_Medium_Fare": "$23.45",
+    "Typical_Long_Fare": "$43.78"
+  },
+  {
+    "City_Name": "Burbank, CA",
+    "Initial_Charge": "$2.85",
+    "Per_Mile_Charge": "$2.70",
+    "Typical_Short_Fare": "$7.14",
+    "Typical_Medium_Fare": "$22.30",
+    "Typical_Long_Fare": "$39.97"
+  },
+  {
+    "City_Name": "Buffalo, NY",
+    "Initial_Charge": "$2.30",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$6.39",
+    "Typical_Medium_Fare": "$22.05",
+    "Typical_Long_Fare": "$40.55"
+  },
+  {
+    "City_Name": "Buda, TX",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$7.01",
+    "Typical_Medium_Fare": "$19.63",
+    "Typical_Long_Fare": "$34.63"
+  },
+  {
+    "City_Name": "Bristol, CT",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$6.64",
+    "Typical_Medium_Fare": "$19.43",
+    "Typical_Long_Fare": "$34.29"
+  },
+  {
+    "City_Name": "Bridgeton, NJ",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$4.91",
+    "Typical_Medium_Fare": "$15.85",
+    "Typical_Long_Fare": "$29.25"
+  },
+  {
+    "City_Name": "Bridgeport, CT",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$6.64",
+    "Typical_Medium_Fare": "$19.43",
+    "Typical_Long_Fare": "$34.29"
+  },
+  {
+    "City_Name": "Brentwood, CA",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$6.59",
+    "Typical_Medium_Fare": "$20.73",
+    "Typical_Long_Fare": "$37.48"
+  },
+  {
+    "City_Name": "Bowie, MD",
+    "Initial_Charge": "$1.15",
+    "Per_Mile_Charge": "$1.08",
+    "Typical_Short_Fare": "$2.46",
+    "Typical_Medium_Fare": "$7.67",
+    "Typical_Long_Fare": "$13.92"
+  },
+  {
+    "City_Name": "Boulder, CO",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$5.01",
+    "Typical_Medium_Fare": "$15.19",
+    "Typical_Long_Fare": "$27.56"
+  },
+  {
+    "City_Name": "Boston, MA",
+    "Initial_Charge": "$2.60",
+    "Per_Mile_Charge": "$2.80",
+    "Typical_Short_Fare": "$6.32",
+    "Typical_Medium_Fare": "$20.58",
+    "Typical_Long_Fare": "$37.49"
+  },
+  {
+    "City_Name": "Boise, ID",
+    "Initial_Charge": "$2.00",
+    "Per_Mile_Charge": "$2.40",
+    "Typical_Short_Fare": "$4.74",
+    "Typical_Medium_Fare": "$15.60",
+    "Typical_Long_Fare": "$28.80"
+  },
+  {
+    "City_Name": "Bluffton, SC",
+    "Initial_Charge": "$10.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$12.18",
+    "Typical_Medium_Fare": "$21.05",
+    "Typical_Long_Fare": "$31.88"
+  },
+  {
+    "City_Name": "Bloomington, MN",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$6.29",
+    "Typical_Medium_Fare": "$19.68",
+    "Typical_Long_Fare": "$35.71"
+  },
+  {
+    "City_Name": "Bloomington, IN",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$8.27",
+    "Typical_Medium_Fare": "$21.50",
+    "Typical_Long_Fare": "$36.50"
+  },
+  {
+    "City_Name": "Bloomington, IL",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.40",
+    "Typical_Short_Fare": "$6.09",
+    "Typical_Medium_Fare": "$19.35",
+    "Typical_Long_Fare": "$34.85"
+  },
+  {
+    "City_Name": "Bloomfield, CT",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$6.64",
+    "Typical_Medium_Fare": "$19.43",
+    "Typical_Long_Fare": "$34.29"
+  },
+  {
+    "City_Name": "Birmingham, AL",
+    "Initial_Charge": "$4.50",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$7.16",
+    "Typical_Medium_Fare": "$17.25",
+    "Typical_Long_Fare": "$29.25"
+  },
+  {
+    "City_Name": "Berkeley, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.60",
+    "Typical_Short_Fare": "$6.98",
+    "Typical_Medium_Fare": "$20.55",
+    "Typical_Long_Fare": "$36.58"
+  },
+  {
+    "City_Name": "Benicia, CA",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$5.58",
+    "Typical_Medium_Fare": "$18.54",
+    "Typical_Long_Fare": "$34.16"
+  },
+  {
+    "City_Name": "Baton Rouge, LA",
+    "Initial_Charge": "$4.00",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$6.86",
+    "Typical_Medium_Fare": "$18.00",
+    "Typical_Long_Fare": "$31.00"
+  },
+  {
+    "City_Name": "Baltimore, MD",
+    "Initial_Charge": "$1.80",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$5.07",
+    "Typical_Medium_Fare": "$16.80",
+    "Typical_Long_Fare": "$30.60"
+  },
+  {
+    "City_Name": "Bakersfield, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$6.83",
+    "Typical_Medium_Fare": "$21.13",
+    "Typical_Long_Fare": "$38.03"
+  },
+  {
+    "City_Name": "Austin, TX",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.20",
+    "Typical_Short_Fare": "$5.60",
+    "Typical_Medium_Fare": "$16.93",
+    "Typical_Long_Fare": "$30.34"
+  },
+  {
+    "City_Name": "Aurora, CO",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$5.01",
+    "Typical_Medium_Fare": "$15.19",
+    "Typical_Long_Fare": "$27.56"
+  },
+  {
+    "City_Name": "Augusta, GA",
+    "Initial_Charge": "$2.65",
+    "Per_Mile_Charge": "$2.40",
+    "Typical_Short_Fare": "$5.84",
+    "Typical_Medium_Fare": "$18.19",
+    "Typical_Long_Fare": "$32.81"
+  },
+  {
+    "City_Name": "Atlanta, GA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.52",
+    "Typical_Medium_Fare": "$16.45",
+    "Typical_Long_Fare": "$29.25"
+  },
+  {
+    "City_Name": "Athens, TN",
+    "Initial_Charge": "$5.00",
+    "Per_Mile_Charge": "$1.00",
+    "Typical_Short_Fare": "$7.09",
+    "Typical_Medium_Fare": "$13.60",
+    "Typical_Long_Fare": "$21.00"
+  },
+  {
+    "City_Name": "Athens, GA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.20",
+    "Typical_Medium_Fare": "$15.40",
+    "Typical_Long_Fare": "$27.50"
+  },
+  {
+    "City_Name": "Astoria, OR",
+    "Initial_Charge": "$2.20",
+    "Per_Mile_Charge": "$2.70",
+    "Typical_Short_Fare": "$3.33",
+    "Typical_Medium_Fare": "$16.75",
+    "Typical_Long_Fare": "$32.75"
+  },
+  {
+    "City_Name": "Ashville, NC",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.93",
+    "Typical_Medium_Fare": "$16.35",
+    "Typical_Long_Fare": "$29.25"
+  },
+  {
+    "City_Name": "Arlington, VA",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.10",
+    "Typical_Short_Fare": "$5.86",
+    "Typical_Medium_Fare": "$17.40",
+    "Typical_Long_Fare": "$30.90"
+  },
+  {
+    "City_Name": "Arlington, TX",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$1.80",
+    "Typical_Short_Fare": "$4.53",
+    "Typical_Medium_Fare": "$13.30",
+    "Typical_Long_Fare": "$23.80"
+  },
+  {
+    "City_Name": "Annapolis, MD",
+    "Initial_Charge": "$2.00",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.41",
+    "Typical_Medium_Fare": "$17.50",
+    "Typical_Long_Fare": "$32.00"
+  },
+  {
+    "City_Name": "Ann Arbor, MI",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$3.00",
+    "Typical_Short_Fare": "$6.47",
+    "Typical_Medium_Fare": "$20.43",
+    "Typical_Long_Fare": "$37.29"
+  },
+  {
+    "City_Name": "Anchorage, AK",
+    "Initial_Charge": "$2.75",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$3.77",
+    "Typical_Medium_Fare": "$16.13",
+    "Typical_Long_Fare": "$30.88"
+  },
+  {
+    "City_Name": "Anaheim, CA",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$8.06",
+    "Typical_Medium_Fare": "$23.25",
+    "Typical_Long_Fare": "$41.00"
+  },
+  {
+    "City_Name": "American Canyon, CA",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$2.75",
+    "Typical_Short_Fare": "$5.58",
+    "Typical_Medium_Fare": "$18.54",
+    "Typical_Long_Fare": "$34.16"
+  },
+  {
+    "City_Name": "Amarillo, TX",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$1.75",
+    "Typical_Short_Fare": "$3.51",
+    "Typical_Medium_Fare": "$11.68",
+    "Typical_Long_Fare": "$21.55"
+  },
+  {
+    "City_Name": "Alpharetta, GA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$1.50",
+    "Typical_Short_Fare": "$4.13",
+    "Typical_Medium_Fare": "$10.13",
+    "Typical_Long_Fare": "$17.63"
+  },
+  {
+    "City_Name": "Allen, TX",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$1.80",
+    "Typical_Short_Fare": "$4.53",
+    "Typical_Medium_Fare": "$13.30",
+    "Typical_Long_Fare": "$23.80"
+  },
+  {
+    "City_Name": "Alexandria, VA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.16",
+    "Typical_Short_Fare": "$6.41",
+    "Typical_Medium_Fare": "$18.75",
+    "Typical_Long_Fare": "$33.09"
+  },
+  {
+    "City_Name": "Albuquerque, NM",
+    "Initial_Charge": "$2.94",
+    "Per_Mile_Charge": "$2.60",
+    "Typical_Short_Fare": "$5.76",
+    "Typical_Medium_Fare": "$17.42",
+    "Typical_Long_Fare": "$31.62"
+  },
+  {
+    "City_Name": "Albany, NY",
+    "Initial_Charge": "$3.50",
+    "Per_Mile_Charge": "$2.00",
+    "Typical_Short_Fare": "$5.18",
+    "Typical_Medium_Fare": "$14.75",
+    "Typical_Long_Fare": "$26.25"
+  },
+  {
+    "City_Name": "Albany, CA",
+    "Initial_Charge": "$3.00",
+    "Per_Mile_Charge": "$2.60",
+    "Typical_Short_Fare": "$6.98",
+    "Typical_Medium_Fare": "$20.55",
+    "Typical_Long_Fare": "$36.58"
+  },
+  {
+    "City_Name": "Alamo, CA",
+    "Initial_Charge": "$2.50",
+    "Per_Mile_Charge": "$2.50",
+    "Typical_Short_Fare": "$5.88",
+    "Typical_Medium_Fare": "$18.50",
+    "Typical_Long_Fare": "$33.50"
+  },
+  {
+    "City_Name": "Alameda, CA",
+    "Initial_Charge": "$3.20",
+    "Per_Mile_Charge": "$2.90",
+    "Typical_Short_Fare": "$7.45",
+    "Typical_Medium_Fare": "$22.85",
+    "Typical_Long_Fare": "$40.97"
+  },
+  {
+    "City_Name": "Akron, OH",
+    "Initial_Charge": "$3.75",
+    "Per_Mile_Charge": "$2.25",
+    "Typical_Short_Fare": "$6.85",
+    "Typical_Medium_Fare": "$18.47",
+    "Typical_Long_Fare": "$32.22"
+  },
+  {
+    "City_Name": "Addison, TX",
+    "Initial_Charge": "$2.25",
+    "Per_Mile_Charge": "$1.80",
+    "Typical_Short_Fare": "$4.53",
+    "Typical_Medium_Fare": "$13.30",
+    "Typical_Long_Fare": "$23.80"
+  }
+]
