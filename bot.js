@@ -1,19 +1,20 @@
 var keys = require('./keys')
 
-//var Lyft = require('node-lyft')
-//const lyft = new lyft(keys.lyft.client_token, keys.lyft.client_secret);
+var Lyft = require('node-lyft')
+var defaultClient = Lyft.ApiClient.instance;
+defaultClient.authentications['Client Authentication'].accessToken = keys.lyft.client_token
+const lyft = new Lyft.PublicApi();
 
 var GoogleMapsAPI = require('googlemaps')
-var gmAPI = new GoogleMapsAPI({
+const gmAPI = new GoogleMapsAPI({
     key: keys.google.key,
     stagger_time: 1000, // for elevationPath
     encode_polylines:   false,
     secure:             true // use https
 });
 
-
 var Uber = require('node-uber')
-var uber = new Uber({
+const uber = new Uber({
     client_id: keys.uber.client_id,
     client_secret: keys.uber.client_secret,
     server_token: keys.uber.server_token,

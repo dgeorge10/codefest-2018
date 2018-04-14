@@ -23,6 +23,7 @@
   "homepage": "https://github.com/dgeorge10/codefest-2018#readme",
   "dependencies": {
     "googlemaps": "^1.12.0",
+    "node-lyft": "^1.0.3",
     "node-uber": "^2.0.0",
     "twit": "^2.2.9"
   }
