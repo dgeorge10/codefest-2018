@@ -1,7 +1,13 @@
 var keys = require('./keys');
 var fs = require("fs");
-var taxifare = JSON.parse(fs.readFileSync('./taxifare.json'));
 var geocoder = require('geocoder');
+
+var taxifare = new Map();
+
+var tempTax = JSON.parse(fs.readFileSync('./taxifare.json'));
+for (i in tempTax) {
+    taxifare.set(tempTax[i].CityName.split(',')[0].toLowerCase(), [tempTax[i].InitialCharge,tempTax[i].PerMileCharge]);
+}
 
 var Lyft = require('node-lyft');
 var defaultClient = Lyft.ApiClient.instance;
@@ -53,23 +59,9 @@ if (street2!=null && city2!=null && zip2!=null && state2!=null) {
 
     });
 }
-/**
- function binarySearch(taxi, word, index, min, max) {
-    mid = (min+max) / 2;
-    if (taxi[mid].City_Name.substring(0,index+1).toLowerCase() == word.substring(0,index+1).toLowerCase()) {
-        if (taxi[mid].City_Name.split(',')[0].toLowerCase() == word.toLowerCase()) return index;
-        binarySearch(taxi,word,index+1, min, max);
-    } else if (taxi[mid].City_Name.substring(index,index+1).toLowerCase().charCodeAt(0) < word.substring(index,index+1).toLowerCase().charCodeAt(0)) {
-        binarySearch(taxi,word,index,mid,max);
-    } else if (taxi[mid].City_Name.substring(index,index+1).toLowerCase().charCodeAt(0) > word.substring(index,index+1).toLowerCase().charCodeAt(0)) {
-        binarySearch(taxi,word,index,min,mid)
-    } else return -1;
-}
- /**
- var index = binarySearch(taxifare, city1, 0, 0, taxifare.length);
- console.log(index);
- console.log(taxifare[index<0?0:index])
- **/
+
+console.log(taxifare.get('newyork'));
+
 let lowestCost = 100000000000;
 let dName = 'Ayyyyy';
 let rType = 'Ayyyyyyyy';
