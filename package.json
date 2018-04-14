@@ -1,0 +1,24 @@
+{
+  "name": "codefest-2018",
+  "version": "1.0.0",
+  "description": "twitter bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgeorge10/codefest-2018.git"
+  },
+  "keywords": [
+    "twitter",
+    "uber",
+    "lyft"
+  ],
+  "author": "Daniel Schwartz Dennis George",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgeorge10/codefest-2018/issues"
+  },
+  "homepage": "https://github.com/dgeorge10/codefest-2018#readme"
+}
