@@ -5,12 +5,10 @@ var twitterAPI = bot.getTwitterAPI();
 class twitterWrapper {
 	constructor() {
 		this.twitterAPI = bot.getTwitterAPI();
-		var stream = this.twitterAPI.stream('statuses/filter', { track: 'traveltimetogo'})
-
-		stream.on('tweet', function (tweet) {
-			console.log(tweet);
-		});
 	}
+
+
+	
 
 	// constructor() {
 	// 	this.twitterAPI = bot.getTwitterAPI();
@@ -32,3 +30,4 @@ class twitterWrapper {
 
 var boo = new twitterWrapper();
 
+boo.sendDM();
