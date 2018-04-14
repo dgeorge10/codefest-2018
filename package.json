@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/dgeorge10/codefest-2018#readme",
   "dependencies": {
+    "lyft-node": "0.0.5",
+    "node-uber": "^2.0.0",
     "twit": "^2.2.9"
   }
 }
