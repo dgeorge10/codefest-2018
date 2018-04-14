@@ -31,10 +31,23 @@ const twitter = new Twit({
     access_token: keys.twitter.access_token,
     access_token_secret: keys.twitter.access_token_secret,
     timeout_ms: 60*1000,  // optional HTTP request timeout to apply to all requests.
-})
+});
 
 module.exports = {
     getTwitterAPI: function() {
     return twitter;
-}    
+	},    
+
+	getLyftAPI: function(){
+		return lyft;
+	},
+
+	getUberAPI: function(){
+		return uber;
+	},	
+
+	getGoogleAPI: function(){
+		return google;
+	}
+
 };
