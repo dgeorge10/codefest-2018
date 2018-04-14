@@ -7,16 +7,16 @@ class twitterWrapper {
 		this.twitterAPI = bot.getTwitterAPI();
 		console.log(this.twitterAPI);
 	}
+
+	getMentionName() {
+		var mentions = this.twitterAPI.get('statuses/mentions_timeline', { since_id: this.lastID }, function (err, data, response){
+			// this.lastID = data.id_str;
+			// console.log(data);	
+	
+		});
+	}
 }
 
 var boo = new twitterWrapper();
 
-
-
-// twitterWrapper.prototype.getMentionName= function() {
-// 	var mentions = this.twitterAPI.get('statuses/mentions_timeline', { since_id: this.lastID }, function (err, data, response){
-// 		this.lastID = data.id_str;
-// 		console.log(data);	
-// 	});
-	
-// }
+boo.getMentionName();
