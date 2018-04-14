@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/dgeorge10/codefest-2018/issues"
   },
-  "homepage": "https://github.com/dgeorge10/codefest-2018#readme"
+  "homepage": "https://github.com/dgeorge10/codefest-2018#readme",
+  "dependencies": {
+    "twit": "^2.2.9"
+  }
 }
