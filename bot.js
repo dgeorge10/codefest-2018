@@ -4,7 +4,7 @@ var request = require('request');
 var taxifare = new Map();
 var tempTax = JSON.parse(fs.readFileSync('./taxifare.json'));
 for (i in tempTax) {
-    console.log(tempTax[i].CityName.split(',')[0].toLowerCase());
+    //console.log(tempTax[i].CityName.split(',')[0].toLowerCase());
     taxifare.set(tempTax[i].CityName.split(',')[0].toLowerCase(), [tempTax[i].InitialCharge,tempTax[i].PerMileCharge]);
 }
 
@@ -138,8 +138,8 @@ console.log(sorted);
     console.log(error)
 });
 
-if (taxifare.get(city1.toLowerCase())) {
-    console.log('Average taxi cost near you would be ' + taxifare.get(city1.toLowerCase())[0] + miles*taxifare.get(city1.toLowerCase())[0]);
+if (taxifare.get(city2.toLowerCase())) {
+    console.log('Average taxi cost near you would be ' + taxifare.get(city2.toLowerCase())[0] + miles*taxifare.get(city2.toLowerCase())[0]);
 }
 
 var Twit = require('twit')
