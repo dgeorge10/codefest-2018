@@ -6,7 +6,7 @@ exports.getCost = function(data, taxiFare, callback){
 		city = temp[x].short_name.toLowerCase().replace(/\s/g,'');
 		break;
     }
-	var temp = taxiFare.get(city);
+    temp = taxiFare.get(city);
 	if (temp) {
    		data.taxiPrice=["Taxi", temp[0] + data.miles*temp[1]];
 	}

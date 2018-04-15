@@ -35,35 +35,39 @@ const twitter = new Twit({
 });
 
 
-var getUserLocation = function(screen_name, geo){
-	var userStream = twitter.stream('user');
-	userStream.on('direct_message', function(message){
-		if(message.direct_message.sender.screen_name == screen_name){
-			sendDM(screen_name,getCosts(newData(geo[0], geo[1], screen_name, message.direct_message.text)));
+getUserLocation = function(screen_name, geo){
+	console.log("Entered getUserLocation with user: " + screen_name);
+    var userStream = twitter.stream('user');
+    setTimeout(function(){
+        userStream.close();
+    },600000);
+    userStream.on('direct_message', function(message){
+        if(message.direct_message.sender.screen_name == screen_name){
+			console.log(message);
+            getCosts(newData(geo[0], geo[1], screen_name, message.direct_message.text), userStream);
 			console.log("Completed " + screen_name + "\ngeo: " + geo[0] + "," + geo[1]);
-			userStream.stop();
 		}
 	})
 }
 
 
-function sort(data){
-    console.log(data);
+function sort(data, callback){
+    joined = data.uberPrice.concat(data.lyftPrice);
+    joined.sort(function(a,b){return a[1]>b[1]});
+    callback(data,joined.toString().replace(",","\n"));
 }
 
-function getCosts(data) {
-    // a = function (){
-    //     taxiWrapper.getCost(data, taxiFare, sort())
-    // };
-    // b = uberWrapper.getCost(data, a());
-    // c = lyftWrapper.getCost(data, b());
-    // geoWrapper.geolocate(data, c());
-
+function getCosts(data, userStream) {
     geoWrapper.geolocate(data, function(data) {
         lyftWrapper.getCost(data, function(data) {
             uberWrapper.getCost(data, function(data){
                 taxiWrapper.getCost(data, taxiFare, function(data) {
-                    sort(data);
+                    sort(data,function(data, text, callback = function(userStream){
+                        userStream.stop();
+                    }){
+                        sendDM(data.screen_name, text);
+                        callback(userStream);
+                    });
                 });
             });
         });
@@ -72,7 +76,7 @@ function getCosts(data) {
 
 module.exports = {
     getLyftAPI: function(){
-        return lyft;
+        return lyft
     },
 
     getUberAPI: function(){
@@ -90,26 +94,30 @@ var lyftWrapper = require("./lyftWrapper");
 
 sendDM = function(sn, txt) {
     getTwitterAPI().post("direct_messages/new", {
-    screen_name: sn,
-    text: txt
-    
-});
+        screen_name: sn,
+        text: txt
+    });
     console.log("DM sent to: " + sn);
     console.log("\tmsg: " +txt);
 }
 
+var geoWrapper = require("./geoWrapper");
+var taxiWrapper = require("./taxiWrapper");
+var uberWrapper = require("./uberWrapper");
+var lyftWrapper = require("./lyftWrapper");
+
 startStream = function(){
-    getTwitterAPI().stream('statuses/filter',{track:'traveltimetogo'}).on('tweet', function (tweet) {
+    console.log("Entered startStream");
+    twitter.stream('statuses/filter',{track:'traveltimetogo'}).on('tweet', function (tweet) {
         var name = tweet.user.name;
         var screen_name = tweet.user.screen_name;
         autoFollowBack(screen_name);
         var geo = null;
+        console.log("Received tweet");
         try{
             geo = tweet.geo.coordinates;
             sendDM(screen_name, "Where would you like to go?");
-            setTimeout(function(){
-                getUserLocation(screen_name, geo)
-            }, 0);       
+            getUserLocation(screen_name, geo);      
         }catch(e){
             console.log(e);
             if(geo == null){
@@ -138,7 +146,7 @@ function newData (startLat,startLng,screen_name, address, seats=1){
     data.seats = seats;
     data.address = address;
 
-    data.endLong = null;
+    data.endLng = null;
     data.endLat = null;
     data.uberPrice = [];
     data.lyftPrice = [];
@@ -153,4 +161,6 @@ function newData (startLat,startLng,screen_name, address, seats=1){
 
 data = newData(39.958467,-75.1919439, 'dsbuddy27', "Rittenhouse Square Philadelphia PA");
 getCosts(data);
-//startStream();
+
+startStream();
+
