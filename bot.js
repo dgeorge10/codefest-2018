@@ -43,7 +43,7 @@ getUserLocation = function(screen_name, geo){
     },600000);
     userStream.on('direct_message', function(message){
         if(message.direct_message.sender.screen_name == screen_name){
-			console.log(message);
+			//console.log(message);
             getCosts(newData(geo[0], geo[1], screen_name, message.direct_message.text), userStream);
 			console.log("Completed " + screen_name + "\ngeo: " + geo[0] + "," + geo[1]);
 		}
@@ -79,7 +79,7 @@ function sort(data, callback){
     for(x in sortedPrice){
         outText += sortedPrice[x].toString().replace(",",": $").replace("_"," ") + "\r\n";
     }
-    console.log(outText);
+    //console.log(outText);
     callback(data,outText);
 }
 
@@ -184,9 +184,5 @@ function newData (startLat,startLng,screen_name, address, seats=1){
 
     return data;
 }
-
-data = newData(39.958467,-75.1919439, 'dsbuddy27', "Rittenhouse Square Philadelphia PA");
-getCosts(data);
-
 startStream();
 

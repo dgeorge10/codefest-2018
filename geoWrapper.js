@@ -24,7 +24,7 @@ exports.geolocate = function (data, cbk) {
     });
 };
 
-locogeate = function(lat, lng, cbk) {
+exports.locogeate = function(lat, lng, cbk) {
     console.log("Entered geoWrapper");
     var uri = "https://maps.googleapis.com/maps/api/geocode/json?latlng="+lat+","+lng+"&result_type=street_address&key="+keys.google.key;
     request({
