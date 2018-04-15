@@ -56,12 +56,22 @@ function sort(data){
 }
 
 function getCosts(data) {
-    a = function (){
-        taxiWrapper.getCost(data, taxiFare, sort())
-    };
-    b = uberWrapper.getCost(data, a());
-    c = lyftWrapper.getCost(data, b());
-    geoWrapper.geolocate(data, c());
+    // a = function (){
+    //     taxiWrapper.getCost(data, taxiFare, sort())
+    // };
+    // b = uberWrapper.getCost(data, a());
+    // c = lyftWrapper.getCost(data, b());
+    // geoWrapper.geolocate(data, c());
+
+    geoWrapper.geolocate(data, function(data) {
+        lyftWrapper.getCost(data, function(data) {
+            uberWrapper.getCost(data, function(data){
+                taxiWrapper.getCost(data, taxiFare, function(data) {
+                    sort(data);
+                });
+            });
+        });
+    });
 }
 
 data = newData(39.958467,-75.1919439, 'dsbuddy27', "Rittenhouse Square Philadelphia PA");
