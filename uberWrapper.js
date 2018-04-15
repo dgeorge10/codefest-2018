@@ -27,7 +27,7 @@ exports.getCost = function(data, callback){
 }
 
 exports.getLink = function(data){
-	var link = 'https://m.uber.com/ul/?action=setPickup&client_id='+keys.uber_client_id+'&pickup=my_location&dropoff[nickname]=dropoff2C%20USA&dropoff[latitude]='+data.endlat+'&dropoff[longitude]='+data.endLng;
+	var link = 'https://m.uber.com/ul/?action=setPickup&client_id='+keys.uber_client_id+'&pickup=my_location&dropoff[nickname]=dropoff2C%20USA&dropoff[latitude]='+data.endLat+'&dropoff[longitude]='+data.endLng;
 	console.log(link);
 	return link;
 }
