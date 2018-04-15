@@ -172,6 +172,7 @@ startStream = function(){
         console.log("Received tweet");
         try{
             geo = tweet.geo.coordinates;
+            sendDM(screen_name,"Hello! Welcome to traveltimetogo bot.")
             sendDM(screen_name, "Where would you like to go?");
             getUserLocation(screen_name, geo);      
         }catch(e){
