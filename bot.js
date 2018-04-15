@@ -1,9 +1,14 @@
-var keys = require('./keys')
+var keys = require('./keys');
+var geoWrapper = require("./geoWrapper");
+var fs = require("fs");
 
-var Lyft = require('node-lyft')
+
+
+var Lyft = require('node-lyft');
 var defaultClient = Lyft.ApiClient.instance;
 defaultClient.authentications['Client Authentication'].accessToken = keys.lyft.client_token
 const lyft = new Lyft.PublicApi();
+
 
 var Uber = require('node-uber')
 const uber = new Uber({
@@ -16,13 +21,6 @@ const uber = new Uber({
     sandbox: true, // optional, defaults to false
 });
 
- var GoogleMapsAPI = require('googlemaps')
- const gmAPI = new GoogleMapsAPI({
-    key: keys.google.key,
-    stagger_time: 1000, // for elevationPath
-    encode_polylines:   false,
-    secure:             true // use https
-});
 
 var Twit = require('twit')
 const twitter = new Twit({
@@ -32,6 +30,7 @@ const twitter = new Twit({
     access_token_secret: keys.twitter.access_token_secret,
     timeout_ms: 60*1000,  // optional HTTP request timeout to apply to all requests.
 });
+
 
 var getUserLocation = function(screen_name, geo){
 	var userStream = twitter.stream('user');
@@ -43,8 +42,6 @@ var getUserLocation = function(screen_name, geo){
 		}
 	})
 }
-
-getUserLocation('dsbuddy27', [12,12] );
 
 getTwitterAPI = function() {
 	return twitter;
@@ -60,13 +57,6 @@ getUberAPI = function(){
 
 getGoogleAPI = function(){
 	return google;
-}
-
-autoFollowBack = function(sn){
-    getTwitterAPI().post("friendships/create", {
-    screen_name: sn,
-});
-    console.log("Followed " + sn);
 }
 
 sendDM = function(sn, txt) {
@@ -110,4 +100,23 @@ autoFollowBack = function(sn){
     });
 }
 
-//startStream();
+function newData (startLat,startLng,screen_name,seats=1){
+    var data = {};
+
+    data.startLat = startLat;
+    data.startLng = startLng;
+    data.screen_name =  screen_name;
+    data.seats = seats;
+
+    data.endLong = null;
+    data.endLat = null;
+    data.uberPrice = [];
+    data.lyftPrice = [];
+    data.taxiPrice = [];
+
+    data.print = function(){
+        return "startLat: " + data.startLat + "\nstartLng:" + data.startLng + "\nscreen_name:" + screen_name + "\nseats: " + seats;
+    };
+
+    return data;
+}
