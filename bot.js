@@ -100,7 +100,6 @@ function getCosts(data, userStream) {
     });
 }
 
-
 module.exports = {
     getLyftAPI: function(){
         return lyft
@@ -113,7 +112,11 @@ module.exports = {
 getTwitterAPI = function() {
 	return twitter;
 }
-	 
+
+var geoWrapper = require("./geoWrapper");
+var taxiWrapper = require("./taxiWrapper");
+var uberWrapper = require("./uberWrapper");
+var lyftWrapper = require("./lyftWrapper");
 
 sendDM = function(sn, txt) {
     getTwitterAPI().post("direct_messages/new", {
@@ -182,8 +185,8 @@ function newData (startLat,startLng,screen_name, address, seats=1){
     return data;
 }
 
+data = newData(39.958467,-75.1919439, 'dsbuddy27', "Rittenhouse Square Philadelphia PA");
+getCosts(data);
 
 startStream();
 
-//data = newData(39.958467,-75.1919439, 'dsbuddy27', "Rittenhouse Square Philadelphia PA");
-//getCosts(data);
