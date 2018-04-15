@@ -1,7 +1,7 @@
 var geo = require("./geoWrapper");
 
 exports.getCost = function(data, taxiFare, callback){
-	/*console.log("Entered taxiWrapper");
+	console.log("Entered taxiWrapper");
 	geo.locogeate(data.endlat, data.endlng, function(res) {
 		var temp = res.results[0].address_components;
 		var city;
@@ -14,6 +14,5 @@ exports.getCost = function(data, taxiFare, callback){
    			data.taxiPrice=["Taxi", temp[0] + data.miles*temp[1]];
 		}
 		callback(data);
-	});*/
-	callback(data);
+	});
 }

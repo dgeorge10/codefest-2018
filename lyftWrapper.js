@@ -24,6 +24,6 @@ exports.getCost = function(data, callback){
 
 exports.getLink = function(data){
 	var link = 'https://lyft.com/ride?id=lyft&pickup[latitude]='+ data.endLat +'&pickup[longitude]='+ data.endLng + '&partner=' + keys.lyft.client_id;
-	console.log(link);
+	//console.log(link);
 	return link;
 }
