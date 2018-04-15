@@ -1,6 +1,5 @@
 var bot = require("./bot");
-
-
+var keys = require("./keys")
 
 getPrice = function(startLat,startLng,endLat,endLng,callback, seats=1){
 	uber.estimates.getPriceForRouteAsync(startLat,startLng,endLat,endLng,seats).then((data) => {
@@ -23,4 +22,10 @@ getPrice = function(startLat,startLng,endLat,endLng,callback, seats=1){
 	}, (error) => {
 	console.log(error)
 	});
+}
+
+exports.getLink = function(data){
+	var link = 'https://m.uber.com/ul/?action=setPickup&client_id='+keys.uber_client_id+'&pickup=my_location&dropoff[nickname]=dropoff2C%20USA&dropoff[latitude]='+data.endlat+'&dropoff[longitude]='+data.endLng;
+	console.log(link);
+	return link;
 }
