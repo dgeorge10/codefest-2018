@@ -1,7 +1,7 @@
 
 
 exports.getCost = function(data, taxiFare, callback){
-	console.log("Entered taxiWrapper");
+/*	console.log("Entered taxiWrapper");
 	var keys = taxiFare.keys();
 	var c;
 	var city = null;
@@ -14,7 +14,7 @@ exports.getCost = function(data, taxiFare, callback){
 
 	var temp = taxiFare.get(city.toLowerCase());
 	if (temp) {
-   		data.taxiPrice=["Taxi", temp[0] + data.miles*temp[1]];
-	}
+   		//data.taxiPrice=["Taxi", temp[0] + data.miles*temp[1]];
+	}*/
 	callback(data);
 }

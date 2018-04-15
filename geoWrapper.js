@@ -18,8 +18,9 @@ exports.geolocate = function (data, cbk) {
         }
         if (typeof cbk === "function") {
             var temp = result.results[0].geometry.location; 
-            data.endLat = temp.Lat;
-            data.endLng = temp.Lng;
+            data.endLat = temp.lat;
+            data.endLng = temp.lng;
+            console.log(data);
             cbk(data);
         }
     });

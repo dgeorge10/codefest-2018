@@ -12,15 +12,14 @@ exports.getCost = function(data, callback){
 	    var average = (costs[x].low_estimate+costs[x].high_estimate)/2;
 	    console.log(costs[x].localized_display_name + ': $' + parseFloat(average));
 	    //console.log("Cost: " + costs);
-	    if (costs[x].low_estimate!=null && average < lowestCost && !(costs[x].display_name == isPool)) {
+	    if (costs[x].low_estimate!=null) {
 	        uberPrices.push([costs[x].localized_display_name, parseFloat(average)]);
-	        lowestCost = average;
 	        dName = costs[x].display_name;
 	        rType = costs[x].localized_display_name;
 	        spicyBoy = 'Uber';
 	    }
 	}
-	data.uberPrices = uberPrices;
+	data.uberPrice = uberPrices;
 	data.miles = miles;
 	callback(data);
 	}, (error) => {

@@ -1,8 +1,4 @@
 var keys = require('./keys');
-var geoWrapper = require("./geoWrapper");
-var taxiWrapper = require("./taxiWrapper");
-var uberWrapper = require("./uberWrapper");
-var lyftWrapper = require("./lyftWrapper");
 var fs = require("fs");
 
 var taxiFare = new Map();
@@ -74,13 +70,10 @@ function getCosts(data) {
     });
 }
 
-data = newData(39.958467,-75.1919439, 'dsbuddy27', "Rittenhouse Square Philadelphia PA");
-getCosts(data);
-
 
 module.exports = {
     getLyftAPI: function(){
-        return lyft;
+        return lyft
     },
 
     getUberAPI: function(){
@@ -101,6 +94,11 @@ sendDM = function(sn, txt) {
     console.log("DM sent to: " + sn);
     console.log("\tmsg: " +txt);
 }
+
+var geoWrapper = require("./geoWrapper");
+var taxiWrapper = require("./taxiWrapper");
+var uberWrapper = require("./uberWrapper");
+var lyftWrapper = require("./lyftWrapper");
 
 startStream = function(){
     getTwitterAPI().stream('statuses/filter',{track:'traveltimetogo'}).on('tweet', function (tweet) {
@@ -142,7 +140,7 @@ function newData (startLat,startLng,screen_name, address, seats=1){
     data.seats = seats;
     data.address = address;
 
-    data.endLong = null;
+    data.endLng = null;
     data.endLat = null;
     data.uberPrice = [];
     data.lyftPrice = [];
@@ -157,3 +155,6 @@ function newData (startLat,startLng,screen_name, address, seats=1){
 
 
 //startStream();
+
+data = newData(39.958467,-75.1919439, 'dsbuddy27', "Rittenhouse Square Philadelphia PA");
+getCosts(data);
