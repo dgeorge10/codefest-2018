@@ -35,10 +35,9 @@ const twitter = new Twit({
 });
 
 getUserPreference = function(data){
-    sendDM(data.screen_name,"Would you like to use Uber or Lyft?");
     var userStream = twitter.stream('user');
     setTimeout(function(){
-        userStream.close();
+        userStream.stop();
     },180000);
     userStream.on('direct_message', function(message){
         if(message.direct_message.sender.screen_name == data.screen_name){
@@ -60,7 +59,7 @@ getUserLocation = function(screen_name, geo){
 	console.log("Entered getUserLocation with user: " + screen_name);
     var userStream = twitter.stream('user');
     setTimeout(function(){
-        userStream.close();
+        userStream.stop();
     },600000);
     userStream.on('direct_message', function(message){
         if(message.direct_message.sender.screen_name == screen_name){
@@ -75,33 +74,42 @@ getUserLocation = function(screen_name, geo){
 function sort(data, callback){
     var uberCopy = data.uberPrice.splice(0,data.uberPrice.length-1);
     var lyftCopy = data.lyftPrice;
-    var sortedPrice = [];
-    var i = 0;
-    var j = 0;
-    while(i <= uberCopy.length-1 && j <= lyftCopy.length-1){
-        if(uberCopy[i][1] <= lyftCopy[j][1]){
-            sortedPrice.push(uberCopy[i]);
-            i++;
-        }else{
-            sortedPrice.push(lyftCopy[j]);
-            j++;
-        }
-    }
-    while(i <= uberCopy.length-1){
-        sortedPrice.push(uberCopy[i]);
-        i++;
-    }
-    while(j <= lyftCopy.length-1){
-        sortedPrice.push(lyftCopy[j]);
-        j++;
-    }
+    var taxiCopy = data.taxiPrice;
+    var sortedPrice = mergeSortedLists(mergeSortedLists(uberCopy,lyftCopy),taxiCopy);
+    
     sortedPrice.reverse();
+    console.log(sortedPrice);
     var outText = "";
     for(x in sortedPrice){
         outText += sortedPrice[x].toString().replace(",",": $").replace("_"," ") + "\r\n";
     }
+    outText += "Would you like to use Uber or Lyft?"
     //console.log(outText);
     callback(data,outText);
+}
+
+function mergeSortedLists(list1, list2) {
+    var sortedList = []
+    var i = 0;
+    var j = 0;
+    while(i <= list1.length-1 && j <= list2.length-1){
+        if(list1[i][1] <= list2[j][1]){
+            sortedList.push(list1[i]);
+            i++;
+        }else{
+            sortedList.push(list2[j]);
+            j++;
+        }
+    }
+    while(i <= list1.length-1){
+        sortedList.push(list1[i]);
+        i++;
+    }
+    while(j <= list2.length-1){
+        sortedList.push(list2[j]);
+        j++;
+    }
+    return sortedList;
 }
 
 function getCosts(data, userStream) {

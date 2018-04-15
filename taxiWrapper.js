@@ -2,7 +2,10 @@ var geo = require("./geoWrapper");
 
 exports.getCost = function(data, taxiFare, callback){
 	console.log("Entered taxiWrapper");
-	geo.locogeate(data.endlat, data.endlng, function(res) {
+	console.log(data.address);
+	geo.locogeate(data, function(res) {
+		console.log(res);
+		console.log(res.results);
 		var temp = res.results[0].address_components;
 		var city;
 		for (x in temp) if (temp[x].types[0] == 'locality') {
@@ -11,7 +14,9 @@ exports.getCost = function(data, taxiFare, callback){
     	}
     	temp = taxiFare.get(city);
 		if (temp) {
-   			data.taxiPrice=["Taxi", temp[0] + data.miles*temp[1]];
+			var tmp =[] 
+			tmp.push(['Taxi',parseFloat((parseFloat(temp[0]) + parseFloat(data.miles)*parseFloat(temp[1])).toFixed(2))]);
+   			data.taxiPrice=tmp;
 		}
 		callback(data);
 	});
