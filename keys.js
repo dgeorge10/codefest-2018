@@ -17,6 +17,6 @@ module.exports = {
         TAG: 'traveltimetogo'
     },
     google: {
-        key: 'AIzaSyDZ3biqwWtqAmaacrdvf77OpL0gqF0gqEk'
+        key: 'AIzaSyAuZoSz_9z4LQPq6vpzcaeiflM3VvVL-oA'
     }
 }
