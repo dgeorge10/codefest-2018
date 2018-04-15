@@ -42,6 +42,7 @@ getUserPreference = function(data){
     },180000);
     userStream.on('direct_message', function(message){
         if(message.direct_message.sender.screen_name == data.screen_name){
+            console.log("Message received from: " data.screen_name + "\n\tmsg: " message.direct_message.text);
             if(message.direct_message.text.toLowerCase() == 'uber'){
                 sendDM(data.screen_name, uberWrapper.getLink(data));
             }else if(message.direct_message.text.toLowerCase() == 'lyft'){
@@ -63,7 +64,7 @@ getUserLocation = function(screen_name, geo){
     },600000);
     userStream.on('direct_message', function(message){
         if(message.direct_message.sender.screen_name == screen_name){
-			//console.log(message);
+			console.log("Message received from: " data.screen_name + "\n\tmsg: " message.direct_message.text);
             getCosts(newData(geo[0], geo[1], screen_name, message.direct_message.text), userStream);
 			console.log("Completed " + screen_name + "\ngeo: " + geo[0] + "," + geo[1]);
 		}
