@@ -25,10 +25,10 @@ const uber = new Uber({
     sandbox: true, // optional, defaults to false
 });
 
-street1 = '409 Van Sant Avenue';
-city1 = 'Linwood';
-zip1 = '08221';
-state1 = 'NJ';
+street1 = '1500 Walnut Street';
+city1 = 'Philadelphia';
+zip1 = '19104';
+state1 = 'PA';
 
 street2 = '3300 Race Street';
 city2 = 'Philadelphia';
@@ -37,70 +37,107 @@ state2 = 'PA';
 
 isPool = '';
 
-let startLat = 39.9584629;
-let startLng = -75.1897499;
-let endLat = 39.3514433;
-let endLng = -74.5751162;
+
+let startLat = 39.958467;
+let startLng = -75.1919439;
+let endLat = 39.9490881;
+let endLng = -75.1683371;
+
 
 if (street1!=null && city1!=null && zip1!=null && state1!=null) {
     geocoder.geocode(street1 + ', '+city1+', ' + state1+', ' + zip1, function (err, result) {
-        console.log(result.results[0].geometry.location);
-        startLat = result.results[0].geometry.location.lat;
-        startLng = result.results[0].geometry.location.lng;
-        console.log(startLat + ' ' + startLng);
+    	try{
+	        console.log(result.results[0].geometry.location);
+	        startLat = result.results[0].geometry.location.lat;
+	        startLng = result.results[0].geometry.location.lng;
+	        console.log(startLat + ' ' + startLng);
+	     }catch(err){
+	     	console.log('err');
+	     }
     });
 }
 if (street2!=null && city2!=null && zip2!=null && state2!=null) {
     geocoder.geocode(street2 + ', '+city2+', ' + state2+', ' + zip2, function (err, result) {
-        console.log(result.results[0].geometry.location);
-        endLat = result.results[0].geometry.location.lat;
-        endLng = result.results[0].geometry.location.lng;
-        console.log(endLat + ' ' + endLng);
+    	try{
+	        console.log(result.results[0].geometry.location);
+	        endLat = result.results[0].geometry.location.lat;
+	        endLng = result.results[0].geometry.location.lng;
+	        console.log(endLat + ' ' + endLng);
+	    }catch(err){
+	    	console.log('fuck');
+	    }
 
     });
 }
 
-console.log(taxifare.get('newyork'));
+//console.log(taxifare.get('newyork'));
 
 let lowestCost = 100000000000;
 let dName = 'Ayyyyy';
 let rType = 'Ayyyyyyyy';
 let spicyBoy = 'Me';
 
+var uberPrices = [];
+var lyftPrices = [];
+
 uber.estimates.getPriceForRouteAsync(startLat,startLng,endLat,endLng,1).then((data) => {
     var costs = data.prices;
     for (x in costs) {
         var average = (costs[x].low_estimate+costs[x].high_estimate)/2;
-        console.log(average);
+        console.log(costs[x].localized_display_name + ': $' + parseFloat(average));
+        //console.log("Cost: " + costs);
         if (costs[x].low_estimate!=null && average < lowestCost && !(costs[x].display_name == isPool)) {
+            // uberPrices.push([costs[x].localized_display_name, parseFloat(average)]);
             lowestCost = average;
             dName = costs[x].display_name;
             rType = costs[x].localized_display_name;
             spicyBoy = 'Uber';
         }
     }
-    iamretarded = 2
 }, (error) => {
     console.log(error)
 });
+
+
 
 lyftAPI.getCost(startLat,startLng,{endLat:endLat,endLng:endLng}).then((data) => {
     var costs = data.cost_estimates;
     for (x in costs) {
         var average = (costs[x].estimated_cost_cents_min + costs[x].estimated_cost_cents_max) / 200;
-        console.log(average);
+        console.log(costs[x].ride_type + ': $' + parseFloat(average));
         if (costs[x].estimated_cost_cents_min!=null && average < lowestCost) {
+     		// lyftPrices.push([costs[x].ride_type, parseFloat(average)]);
             lowestCost = average;
             dName = costs[x].display_name;
             rType = costs[x].ride_type;
             spicyBoy = 'Lyft';
         }
     }
-    console.log('Lowest Price:');
+
+console.log(uberPrices);
+console.log(lyftPrices);
+
+sorted = [];
+while(uberPrices !== [] && lyftPrices !== []){
+	if(uberPrices[i][1] > lyftPrices[j][1]){
+		sorted.push(uberPrices.pop());
+	}else{
+		sorted.push(lyftPrices.pop());
+	}
+}
+while(uberPrices !== []){
+	sorted.push(uberPrices.pop());
+}
+while(lyftPrices !== []){
+	sorted.push(lyftPrices.pop());
+}
+
+console.log(sorted); 	
+    /*console.log('Lowest Price:');
     console.log(spicyBoy);
     console.log(rType);
     console.log(dName);
-    console.log('Lowest Potential Price: ' + lowestCost);
+    console.log('Lowest Potential Price: ' + lowestCost);*/
 }, (error) => {
     console.log(error)
 });
