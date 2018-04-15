@@ -10,10 +10,6 @@ exports.getCost = function(data, callback){
 	        console.log(costs[x].ride_type + ': $' + parseFloat(average));
 	        if (costs[x].estimated_cost_cents_min!=null && average < lowestCost) {
 	     		lyftPrices.push([costs[x].ride_type, parseFloat(average)]);
-	            lowestCost = average;
-	            dName = costs[x].display_name;
-	            rType = costs[x].ride_type;
-	            spicyBoy = 'Lyft';
 	        }
 	    }
 	    data.lyftPrices = lyftPrices;
