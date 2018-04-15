@@ -42,10 +42,10 @@ getUserPreference = function(data){
     userStream.on('direct_message', function(message){
         if(message.direct_message.sender.screen_name == data.screen_name){
             console.log("Message received from: " + data.screen_name + "\n\tmsg: " + message.direct_message.text);
-            if(message.direct_message.text.toLowerCase() == 'uber'){
+            if(message.direct_message.text.toLowerCase().trim() == 'uber'){
                 sendDM(data.screen_name, uberWrapper.getLink(data));
                 userStream().stop();
-            }else if(message.direct_message.text.toLowerCase() == 'lyft'){
+            }else if(message.direct_message.text.toLowerCase().trim() == 'lyft'){
                 sendDM(data.screen_name, lyftWrapper.getLink(data));
                 userStream().stop();
             }else{
@@ -175,7 +175,7 @@ startStream = function(){
         console.log("Received tweet");
         try{
             geo = tweet.geo.coordinates;
-            sendDM(screen_name, "Where would you like to go?");
+            sendDM(screen_name, "Hello! Welcome to traveltimetogo bot.\r\nWhere would you like to go?");
             getUserLocation(screen_name, geo);      
         }catch(e){
             console.log(e);
@@ -190,7 +190,10 @@ autoFollowBack = function(sn){
     getTwitterAPI().post("friendships/create", {screen_name: sn}, function(err, response) {
         if (err) {
             console.log(err);
-        } else {
+        }else if(response.following == true){
+        	console.log('Already following')
+        }
+        else{
             console.log("Followed " + sn);
         }
     });
