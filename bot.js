@@ -34,6 +34,26 @@ const twitter = new Twit({
     timeout_ms: 60*1000,  // optional HTTP request timeout to apply to all requests.
 });
 
+getUserPreference = function(data){
+    sendDM(data.screen_name,"Would you like to use Uber or Lyft?");
+    var userStream = twitter.stream('user');
+    setTimeout(function(){
+        userStream.close();
+    },180000);
+    userStream.on('direct_message', function(message){
+        if(message.direct_message.sender.screen_name == data.screen_name){
+            if(message.direct_message.text.toLowerCase() == 'uber'){
+                sendDM(data.screen_name, uberWrapper.getLink(data));
+            }else if(message.direct_message.text.toLowerCase() == 'lyft'){
+                sendDM(data.screen_name, lyftWrapper.getLink(data));
+            }
+            console.log("Completed preference");
+        }
+    });
+}
+
+
+
 
 getUserLocation = function(screen_name, geo){
 	console.log("Entered getUserLocation with user: " + screen_name);
@@ -47,7 +67,7 @@ getUserLocation = function(screen_name, geo){
             getCosts(newData(geo[0], geo[1], screen_name, message.direct_message.text), userStream);
 			console.log("Completed " + screen_name + "\ngeo: " + geo[0] + "," + geo[1]);
 		}
-	})
+	});
 }
 
 
@@ -90,6 +110,7 @@ function getCosts(data, userStream) {
                 taxiWrapper.getCost(data, taxiFare, function(data) {
                     sort(data,function(data, text, callback = function(userStream){
                         userStream.stop();
+                        getUserPreference(data);
                     }){
                         sendDM(data.screen_name, text);
                         callback(userStream);
