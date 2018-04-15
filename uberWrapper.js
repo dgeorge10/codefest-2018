@@ -9,7 +9,7 @@ exports.getCost = function(data, callback){
 	var uberPrices = [];
 	for (x in costs) {
 	    var average = (costs[x].low_estimate+costs[x].high_estimate)/2;
-	    console.log(costs[x].localized_display_name + ': $' + parseFloat(average));
+	    //console.log(costs[x].localized_display_name + ': $' + parseFloat(average));
 	    //console.log("Cost: " + costs);
 	    if (costs[x].low_estimate!=null) {
 	        uberPrices.push([costs[x].localized_display_name, parseFloat(average)]);

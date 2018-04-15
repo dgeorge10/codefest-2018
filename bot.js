@@ -34,6 +34,7 @@ const twitter = new Twit({
     timeout_ms: 60*1000,  // optional HTTP request timeout to apply to all requests.
 });
 
+//asks the user if they would like to order uber or lyft
 getUserPreference = function(data){
     var userStream = twitter.stream('user');
     setTimeout(function(){
@@ -44,12 +45,12 @@ getUserPreference = function(data){
             console.log("Message received from: " + data.screen_name + "\n\tmsg: " + message.direct_message.text);
             if(message.direct_message.text.toLowerCase().trim() == 'uber'){
                 sendDM(data.screen_name, uberWrapper.getLink(data));
-                userStream().stop();
+                userStream.stop();
             }else if(message.direct_message.text.toLowerCase().trim() == 'lyft'){
                 sendDM(data.screen_name, lyftWrapper.getLink(data));
-                userStream().stop();
+                userStream.stop();
             }else{
-             userStream().stop();   
+             userStream.stop();   
             }
             console.log("Completed preference");
         }
@@ -58,7 +59,7 @@ getUserPreference = function(data){
 
 
 
-
+//Ask where the user would like to go and call the get cost function to give them useful information
 getUserLocation = function(screen_name, geo){
 	console.log("Entered getUserLocation with user: " + screen_name);
     var userStream = twitter.stream('user');
@@ -70,13 +71,13 @@ getUserLocation = function(screen_name, geo){
         if(message.direct_message.sender.screen_name == screen_name){
 			console.log("Message received from: " + screen_name + "\n\tmsg: " + message.direct_message.text);
             getCosts(newData(geo[0], geo[1], screen_name, message.direct_message.text), userStream);
-            userStream().stop();
+            userStream.stop();
 			console.log("Completed " + screen_name + "\ngeo: " + geo[0] + "," + geo[1]);
 		}
 	});
 }
 
-
+//sorts the price data from most expensive to least expensive so when you print it is in the correct order visually
 function sort(data, callback){
     var uberCopy = data.uberPrice.splice(0,data.uberPrice.length-1);
     var lyftCopy = data.lyftPrice;
@@ -84,7 +85,7 @@ function sort(data, callback){
     var sortedPrice = mergeSortedLists(mergeSortedLists(uberCopy,lyftCopy),taxiCopy);
     
     sortedPrice.reverse();
-    console.log(sortedPrice);
+    //console.log(sortedPrice);
     var outText = "";
     for(x in sortedPrice){
         outText += sortedPrice[x].toString().replace(",",": $").replace("_"," ") + "\r\n";
@@ -94,6 +95,7 @@ function sort(data, callback){
     callback(data,outText);
 }
 
+//merges two sorted lists to maintain sort
 function mergeSortedLists(list1, list2) {
     var sortedList = []
     var i = 0;
@@ -118,13 +120,14 @@ function mergeSortedLists(list1, list2) {
     return sortedList;
 }
 
+//a lot of callbacks to be sure everything runs in order.
 function getCosts(data, userStream) {
     geoWrapper.geolocate(data, function(data) {
         lyftWrapper.getCost(data, function(data) {
             uberWrapper.getCost(data, function(data){
                 taxiWrapper.getCost(data, taxiFare, function(data) {
                     sort(data,function(data, text, callback = function(data){getUserPreference(data);}){
-                        setTimeout(sendDM(data.screen_name, text), 1000);
+                        setTimeout(function(name = data.screen_name,t=text){sendDM(name, text)}, 1000);
                         callback(data);
                     });
                 });
@@ -133,6 +136,7 @@ function getCosts(data, userStream) {
     });
 }
 
+//allows wrappers to access api instances
 module.exports = {
     getLyftAPI: function(){
         return lyft
@@ -151,6 +155,7 @@ var taxiWrapper = require("./taxiWrapper");
 var uberWrapper = require("./uberWrapper");
 var lyftWrapper = require("./lyftWrapper");
 
+//sends a dm to a user based on screen name
 sendDM = function(sn, txt) {
     getTwitterAPI().post("direct_messages/new", {
         screen_name: sn,
@@ -160,11 +165,7 @@ sendDM = function(sn, txt) {
     console.log("\tmsg: " +txt);
 }
 
-var geoWrapper = require("./geoWrapper");
-var taxiWrapper = require("./taxiWrapper");
-var uberWrapper = require("./uberWrapper");
-var lyftWrapper = require("./lyftWrapper");
-
+//starts the twitter listening stream which waits until we get mentioned in a tweet then calls appropriate functions
 startStream = function(){
     console.log("Entered startStream");
     twitter.stream('statuses/filter',{track:'traveltimetogo'}).on('tweet', function (tweet) {
@@ -186,12 +187,13 @@ startStream = function(){
     });
 }
 
+//if we do not follow user follow them so they can dm us
 autoFollowBack = function(sn){
     getTwitterAPI().post("friendships/create", {screen_name: sn}, function(err, response) {
         if (err) {
             console.log(err);
         }else if(response.following == true){
-        	console.log('Already following')
+        	console.log('Already following ' + sn);
         }
         else{
             console.log("Followed " + sn);
@@ -199,6 +201,7 @@ autoFollowBack = function(sn){
     });
 }
 
+//data structure so that we do not have to pass each piece individually
 function newData (startLat,startLng,screen_name, address, seats=1){
     var data = {};
 
@@ -220,5 +223,7 @@ function newData (startLat,startLng,screen_name, address, seats=1){
 
     return data;
 }
+
+//starts the program
 startStream();
 

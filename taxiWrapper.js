@@ -2,10 +2,8 @@ var geo = require("./geoWrapper");
 
 exports.getCost = function(data, taxiFare, callback){
 	console.log("Entered taxiWrapper");
-	console.log(data.address);
+	//console.log(data.address);
 	geo.locogeate(data, function(res) {
-		console.log(res);
-		console.log(res.results);
 		var temp = res.results[0].address_components;
 		var city;
 		for (x in temp) if (temp[x].types[0] == 'locality') {

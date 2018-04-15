@@ -9,7 +9,7 @@ exports.getCost = function(data, callback){
 	    var lyftPrices = [];
 	    for (x in costs) {
 	        var average = (costs[x].estimated_cost_cents_min + costs[x].estimated_cost_cents_max) / 200;
-	        console.log(costs[x].ride_type + ': $' + parseFloat(average));
+	        //console.log(costs[x].ride_type + ': $' + parseFloat(average));
 	        if (costs[x].estimated_cost_cents_min!=null) {
 	     		lyftPrices.push([costs[x].ride_type, parseFloat(average)]);
 	        }
