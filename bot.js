@@ -38,14 +38,18 @@ getUserPreference = function(data){
     var userStream = twitter.stream('user');
     setTimeout(function(){
         userStream.stop();
-    },180000);
+    },180000);//3 minutes
     userStream.on('direct_message', function(message){
         if(message.direct_message.sender.screen_name == data.screen_name){
             console.log("Message received from: " + data.screen_name + "\n\tmsg: " + message.direct_message.text);
             if(message.direct_message.text.toLowerCase() == 'uber'){
                 sendDM(data.screen_name, uberWrapper.getLink(data));
+                userStream().stop();
             }else if(message.direct_message.text.toLowerCase() == 'lyft'){
                 sendDM(data.screen_name, lyftWrapper.getLink(data));
+                userStream().stop();
+            }else{
+             userStream().stop();   
             }
             console.log("Completed preference");
         }
@@ -60,11 +64,13 @@ getUserLocation = function(screen_name, geo){
     var userStream = twitter.stream('user');
     setTimeout(function(){
         userStream.stop();
+        console.log("Closed getUserLocation Stream with " + screen_name + " due to timeout");
     },600000);
     userStream.on('direct_message', function(message){
         if(message.direct_message.sender.screen_name == screen_name){
 			console.log("Message received from: " + screen_name + "\n\tmsg: " + message.direct_message.text);
             getCosts(newData(geo[0], geo[1], screen_name, message.direct_message.text), userStream);
+            userStream().stop();
 			console.log("Completed " + screen_name + "\ngeo: " + geo[0] + "," + geo[1]);
 		}
 	});
@@ -117,12 +123,9 @@ function getCosts(data, userStream) {
         lyftWrapper.getCost(data, function(data) {
             uberWrapper.getCost(data, function(data){
                 taxiWrapper.getCost(data, taxiFare, function(data) {
-                    sort(data,function(data, text, callback = function(userStream){
-                        userStream.stop();
-                        getUserPreference(data);
-                    }){
-                        sendDM(data.screen_name, text);
-                        callback(userStream);
+                    sort(data,function(data, text, callback = function(data){getUserPreference(data);}){
+                        setTimeout(sendDM(data.screen_name, text), 1000);
+                        callback(data);
                     });
                 });
             });
