@@ -52,9 +52,35 @@ getUserLocation = function(screen_name, geo){
 
 
 function sort(data, callback){
-    joined = data.uberPrice.concat(data.lyftPrice);
-    joined.sort(function(a,b){return a[1]>b[1]});
-    callback(data,joined.toString().replace(",","\n"));
+    var uberCopy = data.uberPrice.splice(0,data.uberPrice.length-1);
+    var lyftCopy = data.lyftPrice;
+    var sortedPrice = [];
+    var i = 0;
+    var j = 0;
+    while(i <= uberCopy.length-1 && j <= lyftCopy.length-1){
+        if(uberCopy[i][1] <= lyftCopy[j][1]){
+            sortedPrice.push(uberCopy[i]);
+            i++;
+        }else{
+            sortedPrice.push(lyftCopy[j]);
+            j++;
+        }
+    }
+    while(i <= uberCopy.length-1){
+        sortedPrice.push(uberCopy[i]);
+        i++;
+    }
+    while(j <= lyftCopy.length-1){
+        sortedPrice.push(lyftCopy[j]);
+        j++;
+    }
+    sortedPrice.reverse();
+    var outText = "";
+    for(x in sortedPrice){
+        outText += sortedPrice[x].toString().replace(",",": $").replace("_"," ") + "\r\n";
+    }
+    console.log(outText);
+    callback(data,outText);
 }
 
 function getCosts(data, userStream) {
