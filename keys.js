@@ -10,10 +10,10 @@ module.exports = {
         server_token: 'V68RJovI6UHerPL7H8LIPw3Wq3wkWE1UFQGm7WBi'
     },
     twitter: {
-        consumer_key: 'ys889oiisvbmbeSiFYytd4vsc',
-        consumer_secret: 'Oc5lu89Ur1dn4G1vsUnUchCvfNk76Oe79eQfzGnpDCKVwHAguA',
-        access_token: '984987929130029056-pig9J59DsNimBqP8V4Rmg7b9braqKhr',
-        access_token_secret: '1HEGIz4zoEJXd2ytFTRJoHVuXNJWiUaK7xpU2kVgvGR1v',
+        consumer_key: 'fEKynb8VdaKBryIVAGGv4UeOy', 
+        consumer_secret: 'b53shBB6QDlDCOXxMrfb84KPFsNONApuFH7QpqxMXhjzv8T564',
+        access_token: '984987929130029056-ZH6YdaauAtt0GTcQOOLggSDc69L89UY',
+        access_token_secret: 'WkX3KlIwQHLZX3BZNWVSQjw7ZmXBFwsC8Si3ljE0QwS2t',
         TAG: 'traveltimetogo'
     },
     google: {
