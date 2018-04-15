@@ -1,6 +1,12 @@
 var keys = require('./keys');
 var fs = require("fs");
 var request = require('request');
+var taxifare = new Map();
+var tempTax = JSON.parse(fs.readFileSync('./taxifare.json'));
+for (i in tempTax) {
+    console.log(tempTax[i].CityName.split(',')[0].toLowerCase());
+    taxifare.set(tempTax[i].CityName.split(',')[0].toLowerCase(), [tempTax[i].InitialCharge,tempTax[i].PerMileCharge]);
+}
 
 geolocate = function (address, cbk) {
     var uri = "https://maps.googleapis.com/maps/api/geocode/json?address="+address+"&key="+keys.google.key;
@@ -21,13 +27,6 @@ geolocate = function (address, cbk) {
     });
 };
 
-var taxifare = new Map();
-
-var tempTax = JSON.parse(fs.readFileSync('./taxifare.json'));
-for (i in tempTax) {
-    taxifare.set(tempTax[i].CityName.split(',')[0].toLowerCase(), [tempTax[i].InitialCharge,tempTax[i].PerMileCharge]);
-}
-
 var Lyft = require('node-lyft');
 var defaultClient = Lyft.ApiClient.instance;
 //defaultClient.authentications['Client Authentication'].accessToken = keys.lyft.client_token;
@@ -45,7 +44,7 @@ const uber = new Uber({
 });
 
 street1 = '409 Van Sant Avenue';
-city1 = 'Linwood';
+city1 = 'Philadelphia';
 zip1 = '08221';
 state1 = 'NJ';
 
@@ -82,11 +81,11 @@ let lowestCost = 100000000000;
 let dName = 'Ayyyyy';
 let rType = 'Ayyyyyyyy';
 let spicyBoy = 'Me';
-
-
+let miles = 0;
 
 uber.estimates.getPriceForRouteAsync(startLat,startLng,endLat,endLng,1).then((data) => {
     var costs = data.prices;
+    miles = costs[0].distance;
     for (x in costs) {
         var average = (costs[x].low_estimate+costs[x].high_estimate)/2;
         console.log(average);
@@ -97,7 +96,6 @@ uber.estimates.getPriceForRouteAsync(startLat,startLng,endLat,endLng,1).then((da
             spicyBoy = 'Uber';
         }
     }
-    iamretarded = 2
 }, (error) => {
     console.log(error)
 });
@@ -122,6 +120,10 @@ lyftAPI.getCost(startLat,startLng,{endLat:endLat,endLng:endLng}).then((data) => 
 }, (error) => {
     console.log(error)
 });
+
+if (taxifare.get(city1.toLowerCase())) {
+    console.log('Average taxi cost near you would be ' + taxifare.get(city1.toLowerCase())[0] + miles*taxifare.get(city1.toLowerCase())[0]);
+}
 
 var Twit = require('twit')
 const twitter = new Twit({
