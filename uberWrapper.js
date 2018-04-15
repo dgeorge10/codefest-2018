@@ -2,9 +2,10 @@ var bot = require("./bot");
 
 
 
-getPrice = function(startLat,startLng,endLat,endLng,callback, seats=1){
-	uber.estimates.getPriceForRouteAsync(startLat,startLng,endLat,endLng,seats).then((data) => {
-	var costs = data.prices;
+exports.getCost = function(data, callback){
+	console.log("Entered uberWrapper");
+	bot.getUberAPI().estimates.getPriceForRouteAsync(data.startLat,data.startLng,data.endLat,data.endLng,data.seats).then((dat) => {
+	var costs = dat.prices;
 	miles = costs[0].distance;
 	var uberPrices = [];
 	for (x in costs) {
@@ -19,7 +20,9 @@ getPrice = function(startLat,startLng,endLat,endLng,callback, seats=1){
 	        spicyBoy = 'Uber';
 	    }
 	}
-	callback(uberPrices);
+	data.uberPrices = uberPrices;
+	data.miles = miles;
+	callback(data);
 	}, (error) => {
 	console.log(error)
 	});

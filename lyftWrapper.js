@@ -1,8 +1,9 @@
 var bot = require('./bot');
 
-getCost = function(startLat,startLng,endLat,endLng,callback, seats=1){
-	lyftAPI.getCost(startLat,startLng,{endLat:endLat,endLng:endLng}).then((data) => {
-	    var costs = data.cost_estimates;
+exports.getCost = function(data, callback){
+	console.log("Entered lyftWrapper");
+	bot.getLyftAPI().getCost(data.startLat,data.startLng,{endLat:data.endLat,endLng:data.endLng}).then((dat) => {
+	    var costs = dat.cost_estimates;
 	    var lyftPrices = [];
 	    for (x in costs) {
 	        var average = (costs[x].estimated_cost_cents_min + costs[x].estimated_cost_cents_max) / 200;
@@ -15,7 +16,8 @@ getCost = function(startLat,startLng,endLat,endLng,callback, seats=1){
 	            spicyBoy = 'Lyft';
 	        }
 	    }
-	    callback(lyftPrices);
+	    data.lyftPrices = lyftPrices;
+	    callback(data);
 	}, (error) => {
     console.log(error)
 	});
