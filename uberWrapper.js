@@ -1,6 +1,5 @@
 var bot = require("./bot");
-
-
+var keys = require("./keys")
 
 exports.getCost = function(data, callback){
 	console.log("Entered uberWrapper");
@@ -25,4 +24,10 @@ exports.getCost = function(data, callback){
 	}, (error) => {
 	console.log(error)
 	});
+}
+
+exports.getLink = function(data){
+	var link = 'https://m.uber.com/ul/?action=setPickup&client_id='+keys.uber_client_id+'&pickup=my_location&dropoff[nickname]=dropoff2C%20USA&dropoff[latitude]='+data.endlat+'&dropoff[longitude]='+data.endLng;
+	console.log(link);
+	return link;
 }
