@@ -1,4 +1,5 @@
 var bot = require("./bot");
+var keys = require("./keys")
 
 exports.getCost = function(data, callback){
 	console.log("Entered lyftWrapper");
@@ -19,4 +20,10 @@ exports.getCost = function(data, callback){
     console.log(error)
 	});
 
+}
+
+exports.getLink = function(data){
+	var link = 'https://lyft.com/ride?id=lyft&pickup[latitude]='+ data.endLat +'&pickup[longitude]='+ data.endLng + '&partner=' + keys.lyft.client_id;
+	console.log(link);
+	return link;
 }
